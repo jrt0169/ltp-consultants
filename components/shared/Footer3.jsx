@@ -19,28 +19,15 @@ export function Footer3() {
             <div className="mb-6 md:mb-8">
               <Link href="/">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
-                  alt="LTP Consultants"
-                  className="inline-block"
+                  src="/Logo-01.png"
+                  alt="PDN – Performance Development Network"
+                  className="inline-block h-16 w-auto"
                 />
               </Link>
             </div>
             <div className="mb-6 md:mb-8">
-              <p className="mb-1 text-sm font-semibold">Address</p>
-              <p className="mb-5 text-sm md:mb-6">New York, NY 10001</p>
-              <p className="mb-1 text-sm font-semibold">Contact</p>
-              <a
-                href="tel:1800 123 4567"
-                className="block text-sm underline decoration-black underline-offset-1"
-              >
-                (212) 555-0147
-              </a>
-              <a
-                href="mailto:info@relume.io"
-                className="block text-sm underline decoration-black underline-offset-1"
-              >
-                info@relume.io
-              </a>
+              <p className="mb-1 text-sm font-semibold">Location</p>
+              <p className="mb-5 text-sm md:mb-6">College Station, TX</p>
             </div>
             <div className="grid grid-flow-col grid-cols-[max-content] items-start justify-start gap-x-3">
               <a href="#">
@@ -99,7 +86,7 @@ export function Footer3() {
         </div>
         <div className="h-px w-full bg-black" />
         <div className="flex flex-col-reverse items-start justify-between pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="mt-8 md:mt-0">© 2025 LTP Consultants. All rights reserved.</p>
+          <p className="mt-8 md:mt-0">© 2026 Performance Development Network. All rights reserved.</p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
               <a href="#">Privacy policy</a>

@@ -48,8 +48,9 @@ export function Navbar10() {
       <div className="mx-auto flex size-full max-w-full items-center justify-between">
         <Link href="/">
           <img
-            src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
-            alt="LTP Consultants"
+            src="/Logo-01.png"
+            className="h-12 w-auto"
+            alt="PDN – Performance Development Network"
           />
         </Link>
         <div className="absolute hidden h-screen overflow-auto border-b border-border-primary bg-background-primary px-[5%] pb-24 pt-4 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">

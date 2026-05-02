@@ -17,15 +17,7 @@ export function Layout4() {
                 className="aspect-[4/5] w-full object-cover"
                 alt="Executive team reviewing performance metrics"
               />
-              {/* Floating stat card */}
-              <div className="absolute bottom-6 right-6 rounded-sm bg-white p-5 shadow-xl">
-                <p className="font-display text-4xl font-bold text-brand">
-                  $2.1M
-                </p>
-                <p className="mt-1 font-body text-xs text-muted">
-                  Saved in replacement<br />hiring by one client
-                </p>
-              </div>
+              
             </div>
             {/* Decorative bracket */}
             <div className="absolute -left-4 top-8 hidden h-24 w-1 rounded bg-accent lg:block" />
@@ -38,13 +30,12 @@ export function Layout4() {
               Measurable
             </p>
             <h2 className="mb-6 font-display text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
-              Investment that pays for itself in retention alone
+              Investing in your people pays dividends
             </h2>
             <p className="mb-8 font-body leading-relaxed text-muted">
-              Our clients average a 340% ROI within the first year through
-              improved retention, reduced turnover costs, and increased
-              productivity. One healthcare network saved $2.1M in replacement
-              hiring costs.
+              PDN's training, coaching, and consulting programs are designed to deliver
+              real, measurable improvements in team performance, retention, and
+              engagement — benefiting your organisation's bottom line.
             </p>
 
             <div className="mb-10 grid grid-cols-2 gap-6 border-t border-line pt-8">

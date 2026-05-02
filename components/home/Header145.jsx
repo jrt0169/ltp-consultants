@@ -37,9 +37,9 @@ export function Header145() {
           </h1>
 
           <p className="mb-10 max-w-xl font-body text-lg leading-relaxed text-white/80 animate-fade-up-delay-2">
-            LTP Consultants works with HR leaders and senior managers to
-            transform organisational performance through evidence-based team
-            development. We deliver measurable results.
+            PDN works with HR leaders and senior managers to
+            transform organisational performance through evidence-based training,
+            coaching, and consulting. We deliver measurable results.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 animate-fade-up-delay-3">
@@ -58,22 +58,7 @@ export function Header145() {
             </Link>
           </div>
 
-          {/* Social proof strip */}
-          <div className="mt-16 flex flex-wrap items-center gap-8 border-t border-white/10 pt-8 animate-fade-up-delay-3">
-            <div>
-              <p className="font-display text-3xl font-bold text-white">340%</p>
-              <p className="font-body text-xs text-white/60 uppercase tracking-wider">Avg. ROI Year 1</p>
-            </div>
-            <div className="hidden h-8 w-px bg-white/20 md:block" />
-            <div>
-              <p className="font-display text-3xl font-bold text-white">200+</p>
-              <p className="font-body text-xs text-white/60 uppercase tracking-wider">Organisations Served</p>
-            </div>
-            <div className="hidden h-8 w-px bg-white/20 md:block" />
-            <div>
-              <p className="font-display text-3xl font-bold text-white">94%</p>
-              <p className="font-body text-xs text-white/60 uppercase tracking-wider">Client Return Rate</p>
-            </div>
+          
           </div>
         </div>
       </div>

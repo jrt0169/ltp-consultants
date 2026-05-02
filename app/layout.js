@@ -17,9 +17,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "LTP Consultants | Team Training & Leadership Development",
+  title: "PDN | Performance Development Network",
   description:
-    "LTP Consultants delivers workplace and organizational team training that drives measurable results. Book a consultation today.",
+    "Performance Development Network (PDN) delivers online training, coaching, and consulting services that drive measurable results. Book a consultation today.",
 };
 
 export default function RootLayout({ children }) {

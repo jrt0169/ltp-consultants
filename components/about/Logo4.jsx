@@ -14,7 +14,7 @@ export function Logo4() {
             PDN's training programs are built around evidence-based frameworks developed in collaboration with our industry affiliates. Our curriculum is grounded in The Flow System methodology and distributed through our affiliated publishing imprint, 3 Helix Publishing™.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <div className="flex min-h-[140px] w-full items-center justify-center bg-neutral-lightest px-6 py-8">
             <img
               src="/Flow%20System%20Logo%20SM%20Transparent.png"
@@ -33,6 +33,13 @@ export function Logo4() {
             <p className="text-lg font-bold uppercase tracking-widest">
               3 Helix Publishing™
             </p>
+          </div>
+          <div className="flex min-h-[140px] w-full items-center justify-center bg-neutral-lightest px-6 py-8">
+            <img
+              src="/2320_LTP_logo_PS-03.png"
+              alt="LTP Consultants"
+              className="max-h-20 w-auto object-contain"
+            />
           </div>
         </div>
       </div>

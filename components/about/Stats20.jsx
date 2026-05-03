@@ -18,14 +18,6 @@ export function Stats20() {
             Content coming soon.
           </p>
         </div>
-
-        <div className="w-full">
-          <img
-            className="aspect-[3/2] w-full object-cover"
-            src="https://tempfile.aiquickdraw.com/image-format-converter/1776175382652-pq9r3wijcx.jpg"
-            alt="PDN team training session"
-          />
-        </div>
       </div>
     </section>
   );

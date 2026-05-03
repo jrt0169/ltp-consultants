@@ -50,7 +50,7 @@ export function Navbar10() {
           <img
             src="/Logo-01.png"
             className="h-12 w-auto"
-            alt="PDN – Performance Development Network"
+            alt="PDN Performance Development Network"
           />
         </Link>
         <div className="absolute hidden h-screen overflow-auto border-b border-border-primary bg-background-primary px-[5%] pb-24 pt-4 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">
@@ -120,11 +120,11 @@ export function Navbar10() {
                           <h4 className="text-sm font-semibold leading-[1.4] md:leading-[1.3]">
                             Articles
                           </h4>
-                          <a href="#">Leadership</a>
-                          <a href="#">Teams</a>
-                          <a href="#">Performance</a>
-                          <a href="#">Strategy</a>
-                          <a href="#">Culture</a>
+                          <a href="#">Leadership Development</a>
+                          <a href="#">Team Development</a>
+                          <a href="#">Performance Coaching</a>
+                          <a href="#">Strategy Consulting</a>
+                          <a href="#">Culture Change</a>
                         </div>
                       </div>
                       <div className="relative flex w-full flex-wrap items-start justify-center pb-6 lg:items-stretch lg:pt-6">
@@ -381,29 +381,29 @@ export function Navbar10() {
           >
             <div className="flex flex-col">
               <a
-                href="#"
+                href="/services/what-we-do"
                 className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
               >
-                Link One
+                Services
               </a>
               <a
-                href="#"
+                href="/results/case-studies"
                 className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
               >
-                Link Two
+                Results
               </a>
               <a
-                href="#"
+                href="/about"
                 className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
               >
-                Link Three
+                About
               </a>
               <div>
                 <button
                   className="relative flex w-full items-center justify-between whitespace-nowrap py-3 text-md lg:w-auto lg:justify-start lg:gap-2 lg:px-4 lg:py-6 lg:text-base"
                   onClick={useActive.openOnMobileDropdownMenu}
                 >
-                  <span>Link Four</span>
+                  <span>Resources</span>
                   <motion.span
                     animate={useActive.animateDropdownMenuIcon}
                     variants={{
@@ -442,11 +442,11 @@ export function Navbar10() {
                             <h4 className="text-sm font-semibold leading-[1.4] md:leading-[1.3]">
                               Blog categories
                             </h4>
-                            <a href="#">Category One</a>
-                            <a href="#">Category Two</a>
-                            <a href="#">Category Three</a>
-                            <a href="#">Category Four</a>
-                            <a href="#">Category Five</a>
+                            <a href="#">Leadership</a>
+                            <a href="#">Team Performance</a>
+                            <a href="#">Coaching</a>
+                            <a href="#">Consulting</a>
+                            <a href="#">Culture</a>
                           </div>
                         </div>
                         <div className="relative flex w-full flex-wrap items-start justify-center pb-6 lg:items-stretch lg:pt-6">

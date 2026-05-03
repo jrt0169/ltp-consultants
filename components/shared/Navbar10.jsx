@@ -140,7 +140,7 @@ export function Navbar10() {
                             className="flex flex-col gap-2 py-4"
                           >
                             <h5 className="font-semibold">The Flow System</h5>
-                            <p className="text-sm">The evolution of thinking, complexity, and distributed leadership â the book behind the framework.</p>
+                            <p className="text-sm">The evolution of thinking, complexity, and distributed leadership — the book behind the framework.</p>
                           </a>
                           <a
                             href="https://www.amazon.com/Flow-System-Playbook-John-Turner/dp/B0CKDCKCQQ"
@@ -160,16 +160,24 @@ export function Navbar10() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/contact/book-a-consultation">
-              <Button title="Contact" variant="secondary" size="sm">
-                Contact
-              </Button>
-            </Link>
-            <Link href="/contact/book-a-consultation">
-              <Button title="Book a Consultation" size="sm">
-                Book
-              </Button>
-            </Link>
+            <Button
+              title="Contact"
+              variant="secondary"
+              size="sm"
+              data-tally-open="q4jKz8"
+              data-tally-overlay="1"
+            >
+              Contact
+            </Button>
+            <Button
+              title="Book a Consultation"
+              size="sm"
+              data-cal-link="john-turner-edmqah/discovery-call"
+              data-cal-namespace="discovery-call"
+              data-cal-config='{"layout":"month_view"}'
+            >
+              Book
+            </Button>
           </div>
         </div>
         <button
@@ -310,178 +318,64 @@ export function Navbar10() {
                         </div>
                         <div className="relative flex w-full flex-wrap items-start justify-center pb-6 lg:items-stretch lg:pt-6">
                           <div className="grid w-full auto-cols-max auto-rows-max grid-cols-1 grid-rows-[max-content] gap-x-12 gap-y-8 sm:grid-cols-2 lg:gap-y-2">
-                            <a
-                              href="#"
-                              className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                            >
+                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
                               <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img
-                                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                  alt="Relume placeholder image 1"
-                                  className="absolute inset-0 size-full object-cover"
-                                />
+                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 1" className="absolute inset-0 size-full object-cover" />
                               </div>
                               <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">
-                                  Article Title
-                                </h5>
-                                <p className="text-sm">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit
-                                </p>
-                                <Button
-                                  title="Read more"
-                                  variant="link"
-                                  size="link"
-                                  className="mt-2 w-fit text-sm underline"
-                                >
-                                  Read more
-                                </Button>
+                                <h5 className="mb-1 font-semibold">Article Title</h5>
+                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
                               </div>
                             </a>
-                            <a
-                              href="#"
-                              className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                            >
+                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
                               <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img
-                                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                  alt="Relume placeholder image 2"
-                                  className="absolute inset-0 size-full object-cover"
-                                />
+                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 2" className="absolute inset-0 size-full object-cover" />
                               </div>
                               <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">
-                                  Article Title
-                                </h5>
-                                <p className="text-sm">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit
-                                </p>
-                                <Button
-                                  title="Read more"
-                                  variant="link"
-                                  size="link"
-                                  className="mt-2 w-fit text-sm underline"
-                                >
-                                  Read more
-                                </Button>
+                                <h5 className="mb-1 font-semibold">Article Title</h5>
+                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
                               </div>
                             </a>
-                            <a
-                              href="#"
-                              className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                            >
+                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
                               <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img
-                                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                  alt="Relume placeholder image 3"
-                                  className="absolute inset-0 size-full object-cover"
-                                />
+                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 3" className="absolute inset-0 size-full object-cover" />
                               </div>
                               <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">
-                                  Article Title
-                                </h5>
-                                <p className="text-sm">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit
-                                </p>
-                                <Button
-                                  title="Read more"
-                                  variant="link"
-                                  size="link"
-                                  className="mt-2 w-fit text-sm underline"
-                                >
-                                  Read more
-                                </Button>
+                                <h5 className="mb-1 font-semibold">Article Title</h5>
+                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
                               </div>
                             </a>
-                            <a
-                              href="#"
-                              className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                            >
+                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
                               <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img
-                                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                  alt="Relume placeholder image 4"
-                                  className="absolute inset-0 size-full object-cover"
-                                />
+                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 4" className="absolute inset-0 size-full object-cover" />
                               </div>
                               <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">
-                                  Article Title
-                                </h5>
-                                <p className="text-sm">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit
-                                </p>
-                                <Button
-                                  title="Read more"
-                                  variant="link"
-                                  size="link"
-                                  className="mt-2 w-fit text-sm underline"
-                                >
-                                  Read more
-                                </Button>
+                                <h5 className="mb-1 font-semibold">Article Title</h5>
+                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
                               </div>
                             </a>
-                            <a
-                              href="#"
-                              className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                            >
+                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
                               <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img
-                                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                  alt="Relume placeholder image 5"
-                                  className="absolute inset-0 size-full object-cover"
-                                />
+                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 5" className="absolute inset-0 size-full object-cover" />
                               </div>
                               <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">
-                                  Article Title
-                                </h5>
-                                <p className="text-sm">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit
-                                </p>
-                                <Button
-                                  title="Read more"
-                                  variant="link"
-                                  size="link"
-                                  className="mt-2 w-fit text-sm underline"
-                                >
-                                  Read more
-                                </Button>
+                                <h5 className="mb-1 font-semibold">Article Title</h5>
+                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
                               </div>
                             </a>
-                            <a
-                              href="#"
-                              className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                            >
+                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
                               <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img
-                                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                  alt="Relume placeholder image 6"
-                                  className="absolute inset-0 size-full object-cover"
-                                />
+                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 6" className="absolute inset-0 size-full object-cover" />
                               </div>
                               <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">
-                                  Article Title
-                                </h5>
-                                <p className="text-sm">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit
-                                </p>
-                                <Button
-                                  title="Read more"
-                                  variant="link"
-                                  size="link"
-                                  className="mt-2 w-fit text-sm underline"
-                                >
-                                  Read more
-                                </Button>
+                                <h5 className="mb-1 font-semibold">Article Title</h5>
+                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
                               </div>
                             </a>
                           </div>
@@ -492,11 +386,23 @@ export function Navbar10() {
                 </AnimatePresence>
               </div>
               <div className="mt-6 flex flex-col gap-4">
-                <Button title="Button" variant="secondary" size="sm">
-                  Button
+                <Button
+                  title="Contact"
+                  variant="secondary"
+                  size="sm"
+                  data-tally-open="q4jKz8"
+                  data-tally-overlay="1"
+                >
+                  Contact
                 </Button>
-                <Button title="Button" size="sm">
-                  Button
+                <Button
+                  title="Book a Consultation"
+                  size="sm"
+                  data-cal-link="john-turner-edmqah/discovery-call"
+                  data-cal-namespace="discovery-call"
+                  data-cal-config='{"layout":"month_view"}'
+                >
+                  Book
                 </Button>
               </div>
             </div>

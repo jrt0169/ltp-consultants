@@ -29,10 +29,12 @@ export function Logo4() {
               className="max-h-20 w-auto object-contain"
             />
           </div>
-          <div className="flex min-h-[140px] w-full flex-col items-center justify-center bg-neutral-lightest px-6 py-8 text-center">
-            <p className="text-lg font-bold uppercase tracking-widest">
-              3 Helix Publishing™
-            </p>
+          <div className="flex min-h-[140px] w-full items-center justify-center bg-neutral-lightest px-6 py-8">
+            <img
+              src="/3-Helix-Logo.png"
+              alt="3 Helix Publishing"
+              className="max-h-20 w-auto object-contain"
+            />
           </div>
           <div className="flex min-h-[140px] w-full items-center justify-center bg-neutral-lightest px-6 py-8">
             <img

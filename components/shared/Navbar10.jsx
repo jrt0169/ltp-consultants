@@ -128,6 +128,7 @@ export function Navbar10() {
                           </h4>
                           <a href="https://www.amazon.com/dp/B08NXPGMSC" target="_blank" rel="noopener noreferrer">The Flow System</a>
                           <a href="https://www.amazon.com/dp/B08NXPGMSC" target="_blank" rel="noopener noreferrer">The Flow System Playbook</a>
+                          <a href="/resources/workbooks">TFS Playbook Workbooks</a>
                         </div>
                       </div>
                       <div className="relative flex w-full flex-wrap items-start justify-center pb-6 lg:items-stretch lg:pt-6">
@@ -139,7 +140,7 @@ export function Navbar10() {
                             className="flex flex-col gap-2 py-4"
                           >
                             <h5 className="font-semibold">The Flow System</h5>
-                            <p className="text-sm">The evolution of thinking, complexity, and distributed leadership — the book behind the framework.</p>
+                            <p className="text-sm">The evolution of thinking, complexity, and distributed leadership â the book behind the framework.</p>
                           </a>
                           <a
                             href="https://www.amazon.com/dp/B08NXPGMSC"

@@ -36,7 +36,7 @@ export function Logo4() {
           </div>
           <div className="flex min-h-[140px] w-full items-center justify-center bg-neutral-lightest px-6 py-8">
             <img
-              src="/2320_LTP_logo_PS-03.png"
+              src="/23320_LTP_logo_PS-03.png"
               alt="LTP Consultants"
               className="max-h-20 w-auto object-contain"
             />

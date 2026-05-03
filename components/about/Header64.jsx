@@ -8,7 +8,7 @@ export function Header64() {
       <div className="container max-w-4xl">
         <div className="mb-8 h-1 w-12 rounded bg-accent animate-fade-in" />
         <p className="mb-5 font-body text-xs font-semibold uppercase tracking-[0.15em] text-accent animate-fade-up">
-          About LTP Consultants
+          About Performance Development Network
         </p>
         <h1 className="mb-8 font-display text-5xl font-bold leading-tight text-white md:text-7xl lg:text-8xl animate-fade-up-delay-1">
           We build winning{" "}

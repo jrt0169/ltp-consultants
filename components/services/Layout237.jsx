@@ -1,80 +1,77 @@
 "use client";
-
-import { Button } from "@relume_io/relume-ui";
+import Link from "next/link";
 import React from "react";
-import { RxChevronRight } from "react-icons/rx";
+
+const services = [
+  {
+    number: "01",
+    title: "Online Training",
+    description:
+      "Self-paced learning built on The Flow System framework. Work through four evidence-based modules at your own pace, with options to add live coaching and community support.",
+    link: "/training",
+    linkText: "Explore The Flow System",
+  },
+  {
+    number: "02",
+    title: "Live Virtual Programs",
+    description:
+      "Flexible formats that work across distributed teams without sacrificing depth or accountability. Designed to fit your calendar and your team's reality.",
+    link: "/contact/book-a-consultation",
+    linkText: "Book a consultation",
+  },
+  {
+    number: "03",
+    title: "In-Person Workshops",
+    description:
+      "Intensive, multi-day sessions that create immediate alignment and shift behaviour in real time. Delivered at your location or a venue of your choice.",
+    link: "/contact/book-a-consultation",
+    linkText: "Book a consultation",
+  },
+  {
+    number: "04",
+    title: "Coaching & Consulting",
+    description:
+      "Executive coaching and organisational consulting for leaders and teams navigating change, complexity, and performance challenges.",
+    link: "/contact/book-a-consultation",
+    linkText: "Book a consultation",
+  },
+];
 
 export function Layout237() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-24 md:py-28 lg:py-32">
       <div className="container">
         <div className="flex flex-col items-center">
           <div className="rb-12 mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
             <p className="mb-3 font-semibold md:mb-4">Delivery</p>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              How we build your teams
+              Four ways to work with PDN
             </h2>
             <p className="md:text-md">
-              LTP Consultants meets leaders where they are. We design
-              interventions that fit your calendar, your culture, and your
-              constraints.
+              PDN meets you where you are. Every engagement is designed to fit
+              your schedule, your team, and your goals.
             </p>
           </div>
-          <div className="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
-            <div className="flex w-full flex-col items-center text-center">
-              <div className="rb-5 mb-5 md:mb-6">
-                <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo 1"
-                  className="size-12"
-                />
+          <div className="grid w-full grid-cols-1 gap-x-12 gap-y-10 md:grid-cols-2 md:gap-y-14">
+            {services.map((s, i) => (
+              <div key={i} className="flex flex-col">
+                <div className="rb-5 mb-5 md:mb-6">
+                  <p className="text-sm font-bold uppercase tracking-widest text-accent">
+                    {s.number}
+                  </p>
+                </div>
+                <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3]">
+                  {s.title}
+                </h3>
+                <p className="mb-6">{s.description}</p>
+                <Link
+                  href={s.link}
+                  className="inline-flex items-center gap-2 font-semibold underline-offset-4 hover:underline"
+                >
+                  {s.linkText}
+                </Link>
               </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                In-person workshops
-              </h3>
-              <p>
-                Intensive, multi-day sessions that create immediate alignment
-                and shift behavior in real time.
-              </p>
-            </div>
-            <div className="flex w-full flex-col items-center text-center">
-              <div className="rb-5 mb-5 md:mb-6">
-                <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo 1"
-                  className="size-12"
-                />
-              </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Virtual and blended programs
-              </h3>
-              <p>
-                Flexible formats that work across distributed teams without
-                sacrificing depth or accountability.
-              </p>
-            </div>
-            <div className="flex w-full flex-col items-center text-center">
-              <div className="rb-5 mb-5 md:mb-6">
-                <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo 1"
-                  className="size-12"
-                />
-              </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Executive coaching
-              </h3>
-              <p>
-                One-on-one guidance for senior leaders navigating complex
-                organizational challenges.
-              </p>
-            </div>
-          </div>
-          <div className="mt-10 flex items-center gap-4 md:mt-14 lg:mt-16">
-            <Button variant="secondary">Explore</Button>
-            <Button iconRight={<RxChevronRight />} variant="link" size="link">
-              →
-            </Button>
+            ))}
           </div>
         </div>
       </div>

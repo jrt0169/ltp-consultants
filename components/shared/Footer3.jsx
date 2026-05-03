@@ -13,7 +13,7 @@ export function Footer3() {
               <Link href="/">
                 <img
                   src="/Logo-01.png"
-                  alt="PDN â Performance Development Network"
+                  alt="PDN – Performance Development Network"
                   className="inline-block h-16 w-auto"
                 />
               </Link>
@@ -35,7 +35,14 @@ export function Footer3() {
                 <Link href="/about">About us</Link>
               </li>
               <li className="py-2 text-sm font-semibold">
-                <Link href="/contact/book-a-consultation">Book now</Link>
+                <button
+                  data-cal-link="john-turner-edmqah/discovery-call"
+                  data-cal-namespace="discovery-call"
+                  data-cal-config='{"layout":"month_view"}'
+                  className="text-left"
+                >
+                  Book now
+                </button>
               </li>
               <li className="py-2 text-sm font-semibold">
                 <Link href="/services/what-we-do">Services</Link>
@@ -46,7 +53,13 @@ export function Footer3() {
                 <Link href="/results/case-studies">Case studies</Link>
               </li>
               <li className="py-2 text-sm font-semibold">
-                <Link href="/contact/book-a-consultation">Contact us</Link>
+                <button
+                  data-tally-open="q4jKz8"
+                  data-tally-overlay="1"
+                  className="text-left"
+                >
+                  Contact us
+                </button>
               </li>
               <li className="py-2 text-sm font-semibold">
                 <a href="#">Privacy</a>
@@ -62,7 +75,7 @@ export function Footer3() {
         </div>
         <div className="h-px w-full bg-black" />
         <div className="flex flex-col-reverse items-start justify-between pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="mt-8 md:mt-0">Â© 2026 Performance Development Network. All rights reserved.</p>
+          <p className="mt-8 md:mt-0">© 2026 Performance Development Network. All rights reserved.</p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
               <a href="#">Privacy policy</a>

@@ -1,12 +1,11 @@
 "use client";
 import React from "react";
 
-const enc = (folder, name) => "/workbooks/" + folder + "/" + encodeURIComponent(name);
+const enc = (name) => "/workbooks/" + encodeURIComponent(name);
 
 const sections = [
   {
     id: "lean-thinking",
-    folder: "LT",
     title: "Lean Thinking",
     subtitle: "Foundational principles from Toyota",
     workbooks: [
@@ -16,7 +15,6 @@ const sections = [
   },
   {
     id: "complexity-thinking",
-    folder: "CT",
     title: "Complexity Thinking",
     subtitle: "Understanding uncertainty and complex adaptive systems",
     workbooks: [
@@ -24,8 +22,8 @@ const sections = [
       { title: "Complex Adaptive Systems", file: "Workbook - Complex Adaptive Systems.pdf" },
       { title: "Cynefin Framework", file: "Workbook - Cynefin Framework.pdf" },
       { title: "Sensemaking Systems", file: "Workbook - Sensemaking Systems.pdf" },
-      { title: "Weak Signal Detection — Part 1", file: "Workbook 1 - Weak Signal Detection.pdf" },
-      { title: "Weak Signal Detection — Part 2", file: "Workbook 2 - Weak Signal Detection.pdf" },
+      { title: "Weak Signal Detection Part 1", file: "Workbook 1 - Weak Signal Detection.pdf" },
+      { title: "Weak Signal Detection Part 2", file: "Workbook 2 - Weak Signal Detection.pdf" },
       { title: "Network Analysis", file: "Workbook - Network Analysis.pdf" },
       { title: "Storytelling and Narratives", file: "Workbook - Storytelling and Narratives.pdf" },
       { title: "Empirical Process Control", file: "Workbook - Empirical Process Control.pdf" },
@@ -37,28 +35,26 @@ const sections = [
   },
   {
     id: "distributed-leadership",
-    folder: "DL",
     title: "Distributed Leadership",
     subtitle: "The behaviour patterns of those who lead people and teams",
     workbooks: [
       { title: "Psychological Safety", file: "Workbook - Psychological Safety.pdf" },
       { title: "Active Listening", file: "Workbook - Active Listening.pdf" },
-      { title: "Leader's Intent", file: "Workbook - Leader's Intent.pdf" },
+      { title: "Leaders Intent", file: "Workbook - Leader's Intent.pdf" },
       { title: "Shared Mental Models", file: "Workbook - Shared Mental Models.pdf" },
       { title: "Wardley Maps", file: "Workbook - Wardley Maps.pdf" },
       { title: "Decision-Making", file: "Workbook - Decision-Making.pdf" },
       { title: "Bias Towards Action", file: "Workbook - Bias Towards Action.pdf" },
       { title: "Collaboration", file: "Workbook - Collaboration.pdf" },
       { title: "Coaching and Mentoring", file: "Workbook - Coaching and Mentoring.pdf" },
-      { title: "Complex Facilitation — Part 1", file: "Workbook 1 - Complex Facilitation.pdf" },
-      { title: "Complex Facilitation — Part 2", file: "Workbook 2 - Complex Facilitation.pdf" },
-      { title: "Organisational Design — Part 1", file: "Workbook 1 - Organizational Design.pdf" },
-      { title: "Organisational Design — Part 2", file: "Workbook 2 - Organizational Design.pdf" },
+      { title: "Complex Facilitation Part 1", file: "Workbook 1 - Complex Facilitation.pdf" },
+      { title: "Complex Facilitation Part 2", file: "Workbook 2 - Complex Facilitation.pdf" },
+      { title: "Organisational Design Part 1", file: "Workbook 1 - Organizational Design.pdf" },
+      { title: "Organisational Design Part 2", file: "Workbook 2 - Organizational Design.pdf" },
     ],
   },
   {
     id: "team-science",
-    folder: "TS",
     title: "Team Science",
     subtitle: "The science of teams, their interdependencies and interactions",
     workbooks: [
@@ -109,7 +105,7 @@ export function WorkbooksPage() {
                   {section.workbooks.map((wb, i) => (
                     <li key={i}>
                       <a
-                        href={enc(section.folder, wb.file)}
+                        href={enc(wb.file)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group flex items-center gap-3 rounded border border-border-primary p-4 transition-colors hover:border-accent hover:bg-accent-lt"

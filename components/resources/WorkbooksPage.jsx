@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 
-// All PDFs live in /public/workbooks/ — served at /workbooks/filename.pdf
-const enc = (name) => "/workbooks/" + encodeURIComponent(name);
+const enc = (folder, name) => "/workbooks/" + folder + "/" + encodeURIComponent(name);
 
 const sections = [
   {
     id: "lean-thinking",
+    folder: "LT",
     title: "Lean Thinking",
     subtitle: "Foundational principles from Toyota",
     workbooks: [
@@ -16,6 +16,7 @@ const sections = [
   },
   {
     id: "complexity-thinking",
+    folder: "CT",
     title: "Complexity Thinking",
     subtitle: "Understanding uncertainty and complex adaptive systems",
     workbooks: [
@@ -36,6 +37,7 @@ const sections = [
   },
   {
     id: "distributed-leadership",
+    folder: "DL",
     title: "Distributed Leadership",
     subtitle: "The behaviour patterns of those who lead people and teams",
     workbooks: [
@@ -56,6 +58,7 @@ const sections = [
   },
   {
     id: "team-science",
+    folder: "TS",
     title: "Team Science",
     subtitle: "The science of teams, their interdependencies and interactions",
     workbooks: [
@@ -77,7 +80,6 @@ const sections = [
 export function WorkbooksPage() {
   return (
     <>
-      {/* Hero */}
       <section className="bg-brand px-[5%] py-20 md:py-24">
         <div className="container">
           <p className="mb-3 font-semibold text-accent md:mb-4">The Flow System Playbook</p>
@@ -85,13 +87,12 @@ export function WorkbooksPage() {
             Playbook Workbooks
           </h1>
           <p className="max-w-2xl text-white/80 md:text-md">
-            Downloadable workbooks for every topic covered in The Flow System Playbook. Each opens
-            in a new tab — click any title below to view or download the PDF.
+            Downloadable workbooks for every topic covered in The Flow System Playbook. Each
+            workbook pairs with a module of the online training — open or download any PDF to
+            follow along.
           </p>
         </div>
       </section>
-
-      {/* Workbooks Index */}
       <section className="px-[5%] py-20 md:py-24 lg:py-28">
         <div className="container">
           <div className="flex flex-col gap-16 md:gap-20">
@@ -101,30 +102,33 @@ export function WorkbooksPage() {
                   <p className="mb-1 text-sm font-bold uppercase tracking-widest text-accent">
                     {section.title}
                   </p>
-                  <h2 className="text-3xl font-bold md:text-4xl">{section.title} Index</h2>
+                  <h2 className="text-3xl font-bold md:text-4xl">{section.title} Workbooks</h2>
                   <p className="mt-2 text-text-secondary">{section.subtitle}</p>
                 </div>
                 <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
                   {section.workbooks.map((wb, i) => (
                     <li key={i}>
                       <a
-                        href={enc(wb.file)}
+                        href={enc(section.folder, wb.file)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group flex items-center gap-3 rounded border border-border-primary p-4 transition-colors hover:border-accent hover:bg-accent-lt"
                       >
                         <svg
                           className="h-5 w-5 flex-shrink-0 text-accent"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
-                          />
+                          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                          <polyline points="14 2 14 8 20 8" />
+                          <line x1="16" y1="13" x2="8" y2="13" />
+                          <line x1="16" y1="17" x2="8" y2="17" />
+                          <polyline points="10 9 9 9 8 9" />
                         </svg>
                         <span className="text-sm font-medium group-hover:text-accent">
                           {wb.title}

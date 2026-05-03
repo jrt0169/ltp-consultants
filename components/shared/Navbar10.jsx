@@ -124,185 +124,31 @@ export function Navbar10() {
                       <div className="w-full content-start py-4 sm:py-8 lg:max-w-[15rem] lg:pr-8">
                         <div className="grid auto-cols-fr auto-rows-max grid-cols-1 grid-rows-[max-content_max-content_max-content_max-content_max-content] gap-y-4">
                           <h4 className="text-sm font-semibold leading-[1.4] md:leading-[1.3]">
-                            Articles
+                            Books
                           </h4>
-                          <a href="#">Leadership Development</a>
-                          <a href="#">Team Development</a>
-                          <a href="#">Performance Coaching</a>
-                          <a href="#">Strategy Consulting</a>
-                          <a href="#">Culture Change</a>
+                          <a href="https://www.amazon.com/dp/B08NXPGMSC" target="_blank" rel="noopener noreferrer">The Flow System</a>
+                          <a href="https://www.amazon.com/dp/B08NXPGMSC" target="_blank" rel="noopener noreferrer">The Flow System Playbook</a>
                         </div>
                       </div>
                       <div className="relative flex w-full flex-wrap items-start justify-center pb-6 lg:items-stretch lg:pt-6">
                         <div className="grid w-full auto-cols-max auto-rows-max grid-cols-1 grid-rows-[max-content] gap-x-12 gap-y-8 sm:grid-cols-2 lg:gap-y-2">
                           <a
-                            href="#"
-                            className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
+                            href="https://www.amazon.com/dp/B08NXPGMSC"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex flex-col gap-2 py-4"
                           >
-                            <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                              <img
-                                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 1"
-                                className="absolute inset-0 size-full object-cover"
-                              />
-                            </div>
-                            <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                              <h5 className="mb-1 font-semibold">
-                                Building trust across distributed teams
-                              </h5>
-                              <p className="text-sm">
-                                How remote-first organizations create
-                                psychological safety
-                              </p>
-                              <Button
-                                title="Read"
-                                variant="link"
-                                size="link"
-                                className="mt-2 w-fit text-sm underline"
-                              >
-                                Read
-                              </Button>
-                            </div>
+                            <h5 className="font-semibold">The Flow System</h5>
+                            <p className="text-sm">The evolution of thinking, complexity, and distributed leadership — the book behind the framework.</p>
                           </a>
                           <a
-                            href="#"
-                            className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
+                            href="https://www.amazon.com/dp/B08NXPGMSC"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex flex-col gap-2 py-4"
                           >
-                            <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                              <img
-                                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 1"
-                                className="absolute inset-0 size-full object-cover"
-                              />
-                            </div>
-                            <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                              <h5 className="mb-1 font-semibold">
-                                The ROI of investing in leadership development
-                              </h5>
-                              <p className="text-sm">
-                                What Fortune 500 companies know about retention
-                              </p>
-                              <Button
-                                title="Read"
-                                variant="link"
-                                size="link"
-                                className="mt-2 w-fit text-sm underline"
-                              >
-                                Read
-                              </Button>
-                            </div>
-                          </a>
-                          <a
-                            href="#"
-                            className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                          >
-                            <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                              <img
-                                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 1"
-                                className="absolute inset-0 size-full object-cover"
-                              />
-                            </div>
-                            <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                              <h5 className="mb-1 font-semibold">
-                                Measuring team performance beyond metrics
-                              </h5>
-                              <p className="text-sm">
-                                The science behind high-performing cultures
-                              </p>
-                              <Button
-                                title="Read"
-                                variant="link"
-                                size="link"
-                                className="mt-2 w-fit text-sm underline"
-                              >
-                                Read
-                              </Button>
-                            </div>
-                          </a>
-                          <a
-                            href="#"
-                            className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                          >
-                            <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                              <img
-                                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 1"
-                                className="absolute inset-0 size-full object-cover"
-                              />
-                            </div>
-                            <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                              <h5 className="mb-1 font-semibold">
-                                Succession planning that actually works
-                              </h5>
-                              <p className="text-sm">
-                                How to identify and develop future leaders
-                              </p>
-                              <Button
-                                title="Read"
-                                variant="link"
-                                size="link"
-                                className="mt-2 w-fit text-sm underline"
-                              >
-                                Read
-                              </Button>
-                            </div>
-                          </a>
-                          <a
-                            href="#"
-                            className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                          >
-                            <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                              <img
-                                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 1"
-                                className="absolute inset-0 size-full object-cover"
-                              />
-                            </div>
-                            <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                              <h5 className="mb-1 font-semibold">
-                                Transforming conflict into collaboration
-                              </h5>
-                              <p className="text-sm">
-                                Practical frameworks for difficult conversations
-                              </p>
-                              <Button
-                                title="Read"
-                                variant="link"
-                                size="link"
-                                className="mt-2 w-fit text-sm underline"
-                              >
-                                Read
-                              </Button>
-                            </div>
-                          </a>
-                          <a
-                            href="#"
-                            className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0"
-                          >
-                            <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                              <img
-                                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 1"
-                                className="absolute inset-0 size-full object-cover"
-                              />
-                            </div>
-                            <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                              <h5 className="mb-1 font-semibold">
-                                Change management in volatile markets
-                              </h5>
-                              <p className="text-sm">
-                                Leading teams through uncertainty and transition
-                              </p>
-                              <Button
-                                title="Read"
-                                variant="link"
-                                size="link"
-                                className="mt-2 w-fit text-sm underline"
-                              >
-                                Read
-                              </Button>
-                            </div>
+                            <h5 className="font-semibold">The Flow System Playbook</h5>
+                            <p className="text-sm">A practical implementation guide for applying The Flow System in your organisation.</p>
                           </a>
                         </div>
                       </div>

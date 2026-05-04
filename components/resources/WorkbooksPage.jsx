@@ -87,8 +87,6 @@ export default function WorkbooksPage() {
           <button
             data-tally-open="q4jKz8"
             data-tally-overlay="1"
-            data-tally-emoji-text="👋"
-            data-tally-emoji-animation="wave"
             className="inline-block bg-[#c9933a] hover:bg-[#e8b96a] text-white font-semibold py-3 px-8 rounded transition-colors duration-200 cursor-pointer"
           >
             Register Your Interest

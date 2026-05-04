@@ -4,7 +4,7 @@ import { Footer3 } from "@/components/shared/Footer3";
 
 export const metadata = {
   title: "TFS Playbook Workbooks | PDN",
-  description: "Downloadable workbooks for every topic covered in The Flow System Playbook — Lean Thinking, Complexity Thinking, Distributed Leadership, and Team Science.",
+  description: "Downloadable workbooks for every topic covered in The Flow System Playbook -- Lean Thinking, Complexity Thinking, Distributed Leadership, and Team Science.",
 };
 
 export default function WorkbooksRoute() {

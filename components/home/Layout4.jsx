@@ -64,7 +64,7 @@ export function Layout4() {
               className="inline-flex items-center gap-3 rounded-sm bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all duration-200 hover:bg-brand-mid"
             >
               See the results
-              <span aria-hidden="true">-></span>
+              <span aria-hidden="true">{'->'}</span>
             </Link>
           </div>
         </div>

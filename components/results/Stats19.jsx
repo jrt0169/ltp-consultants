@@ -5,7 +5,7 @@ import React from "react";
 const stats = [
   { value: "87%",  label: "of clients report sustained improvement after 12 months" },
   { value: "340+", label: "teams transformed across sectors" },
-  { value: "4.2×", label: "average ROI within twelve months" },
+  { value: "4.2x", label: "average ROI within twelve months" },
 ];
 
 export function Stats19() {

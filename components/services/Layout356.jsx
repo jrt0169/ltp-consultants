@@ -36,12 +36,12 @@ export function Layout356() {
                           Read
                         </Button>
                         <Button
-                          title="→"
+                          title="->"
                           variant="link"
                           size="link"
                           iconRight={<RxChevronRight />}
                         >
-                          →
+                          ->
                         </Button>
                       </div>
                     </div>
@@ -88,12 +88,12 @@ export function Layout356() {
                           Read
                         </Button>
                         <Button
-                          title="→"
+                          title="->"
                           variant="link"
                           size="link"
                           iconRight={<RxChevronRight />}
                         >
-                          →
+                          ->
                         </Button>
                       </div>
                     </div>
@@ -138,12 +138,12 @@ export function Layout356() {
                           Read
                         </Button>
                         <Button
-                          title="→"
+                          title="->"
                           variant="link"
                           size="link"
                           iconRight={<RxChevronRight />}
                         >
-                          →
+                          ->
                         </Button>
                       </div>
                     </div>

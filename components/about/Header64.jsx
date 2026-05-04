@@ -16,10 +16,10 @@ export function Header64() {
         </h1>
         <p className="max-w-2xl font-body text-lg leading-relaxed text-white/75 animate-fade-up-delay-2">
           PDN is built on a methodology with a published intellectual framework
-          — The Flow System — combining Lean Thinking, Complexity Thinking,
+          -- The Flow System -- combining Lean Thinking, Complexity Thinking,
           Distributed Leadership, and Team Science into a single integrated
-          system. We partner with HR leaders and L&D professionals to turn that
-          framework into measurable organisational performance.
+          system. We partner with HR leaders and L&amp;D professionals to turn
+          that framework into measurable organisational performance.
         </p>
       </div>
     </section>

@@ -78,7 +78,7 @@ export function Contact7() {
               type="submit"
               className="inline-flex w-full items-center justify-center rounded-sm bg-brand py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all hover:bg-brand-mid sm:w-auto sm:px-10"
             >
-              Book Consultation {'->'}
+              Book Consultation {'\u2192'}
             </button>
           </form>
         </div>

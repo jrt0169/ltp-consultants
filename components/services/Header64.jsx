@@ -16,7 +16,7 @@ export function Header64() {
         </h1>
         <p className="max-w-2xl font-body text-lg leading-relaxed text-white/75 animate-fade-up-delay-2">
           Evidence-based training designed for leaders who demand measurable
-          results — not workshops that look good on a calendar.
+          results -- not workshops that look good on a calendar.
         </p>
       </div>
     </section>

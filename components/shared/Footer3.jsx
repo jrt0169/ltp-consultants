@@ -13,7 +13,7 @@ export function Footer3() {
               <Link href="/">
                 <img
                   src="/Logo-01.png"
-                  alt="PDN – Performance Development Network"
+                  alt="PDN - Performance Development Network"
                   className="inline-block h-16 w-auto"
                 />
               </Link>

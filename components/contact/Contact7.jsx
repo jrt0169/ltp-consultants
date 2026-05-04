@@ -78,7 +78,7 @@ export function Contact7() {
               type="submit"
               className="inline-flex w-full items-center justify-center rounded-sm bg-brand py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all hover:bg-brand-mid sm:w-auto sm:px-10"
             >
-              Book Consultation →
+              Book Consultation ->
             </button>
           </form>
         </div>
@@ -95,7 +95,7 @@ export function Contact7() {
           <div className="rounded-sm border border-line bg-surface p-7">
             <p className="mb-5 font-display text-lg font-semibold italic text-brand">
               &ldquo;They understood our culture from day one. No generic
-              playbook — just real solutions.&rdquo;
+              playbook -- just real solutions.&rdquo;
             </p>
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent font-body text-sm font-bold text-white">

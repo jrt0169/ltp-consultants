@@ -4,7 +4,7 @@ import React from "react";
 
 const testimonials = [
   {
-    quote: "LTP didn't just train our teams — they rewired how we operate as a leadership group.",
+    quote: "LTP didn't just train our teams -- they rewired how we operate as a leadership group.",
     name: "Sarah Mitchell",
     role: "Chief HR Officer, Fortune 500 manufacturer",
     initial: "S",
@@ -16,7 +16,7 @@ const testimonials = [
     initial: "J",
   },
   {
-    quote: "They understood our culture from day one. No generic playbook — just real solutions.",
+    quote: "They understood our culture from day one. No generic playbook -- just real solutions.",
     name: "Dr. Patricia Okonkwo",
     role: "Chief Medical Officer, regional healthcare network",
     initial: "P",

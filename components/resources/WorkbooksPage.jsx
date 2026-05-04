@@ -4,19 +4,13 @@ import React from "react";
 const enc = (name) => "/workbooks/" + encodeURIComponent(name);
 
 const sections = [
-  {
-    id: "lean-thinking",
-    title: "Lean Thinking",
-    subtitle: "Foundational principles from Toyota",
+  { id: "lean-thinking", title: "Lean Thinking", subtitle: "Foundational principles from Toyota",
     workbooks: [
       { title: "Toyota Production System", file: "Workbook - Toyota Production System.pdf" },
       { title: "The Toyota Way", file: "Workbook - The Toyota Way.pdf" },
     ],
   },
-  {
-    id: "complexity-thinking",
-    title: "Complexity Thinking",
-    subtitle: "Understanding uncertainty and complex adaptive systems",
+  { id: "complexity-thinking", title: "Complexity Thinking", subtitle: "Understanding uncertainty and complex adaptive systems",
     workbooks: [
       { title: "Complexity Thinking", file: "Workbook - Complexity Thinking.pdf" },
       { title: "Complex Adaptive Systems", file: "Workbook - Complex Adaptive Systems.pdf" },
@@ -33,10 +27,7 @@ const sections = [
       { title: "Scrum the Toyota Way", file: "Workbook - Scrum the Toyota Way.pdf" },
     ],
   },
-  {
-    id: "distributed-leadership",
-    title: "Distributed Leadership",
-    subtitle: "The behaviour patterns of those who lead people and teams",
+  { id: "distributed-leadership", title: "Distributed Leadership", subtitle: "The behaviour patterns of those who lead people and teams",
     workbooks: [
       { title: "Psychological Safety", file: "Workbook - Psychological Safety.pdf" },
       { title: "Active Listening", file: "Workbook - Active Listening.pdf" },
@@ -53,10 +44,7 @@ const sections = [
       { title: "Organisational Design Part 2", file: "Workbook 2 - Organizational Design.pdf" },
     ],
   },
-  {
-    id: "team-science",
-    title: "Team Science",
-    subtitle: "The science of teams, their interdependencies and interactions",
+  { id: "team-science", title: "Team Science", subtitle: "The science of teams, their interdependencies and interactions",
     workbooks: [
       { title: "Teamwork Training", file: "Workbook - Teamwork Training.pdf" },
       { title: "Human-Centred Design", file: "Workbook - Human-Centred Design.pdf" },
@@ -73,71 +61,104 @@ const sections = [
   },
 ];
 
-export function WorkbooksPage() {
+export default function WorkbooksPage() {
   return (
-    <>
-      <section className="bg-brand px-[5%] py-20 md:py-24">
-        <div className="container">
-          <p className="mb-3 font-semibold text-accent md:mb-4">The Flow System Playbook</p>
-          <h1 className="mb-5 text-5xl font-bold text-white md:text-7xl lg:text-8xl">
-            Playbook Workbooks
-          </h1>
-          <p className="max-w-2xl text-white/80 md:text-md">
-            Downloadable workbooks for every topic covered in The Flow System Playbook. Each
-            workbook pairs with a module of the online training — open or download any PDF to
-            follow along.
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <div className="bg-[#1a3848] py-16 px-6 text-center">
+        <h1 className="font-['Playfair_Display'] text-4xl font-bold text-white mb-4">
+          TFS Playbook Workbooks
+        </h1>
+        <p className="text-[#e8b96a] text-lg max-w-2xl mx-auto">
+          39 structured workbooks across Lean Thinking, Complexity Thinking, Distributed Leadership, and Team Science — free to download.
+        </p>
+      </div>
+
+      {/* Email Capture Banner */}
+      <div className="bg-[#254d63] py-10 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-['Playfair_Display'] text-2xl font-bold text-white mb-2">
+            Stay ahead — get notified when new modules launch
+          </h2>
+          <p className="text-[#e8b96a] mb-6 text-sm">
+            We're building individual short courses for each of these topics. Register your interest and be first to know when they go live.
           </p>
+          <button
+            data-tally-open="q4jKz8"
+            data-tally-overlay="1"
+            data-tally-emoji-text="👋"
+            data-tally-emoji-animation="wave"
+            className="inline-block bg-[#c9933a] hover:bg-[#e8b96a] text-white font-semibold py-3 px-8 rounded transition-colors duration-200 cursor-pointer"
+          >
+            Register Your Interest
+          </button>
         </div>
-      </section>
-      <section className="px-[5%] py-20 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="flex flex-col gap-16 md:gap-20">
-            {sections.map((section) => (
-              <div key={section.id} id={section.id}>
-                <div className="mb-8 border-b border-border-primary pb-6">
-                  <p className="mb-1 text-sm font-bold uppercase tracking-widest text-accent">
-                    {section.title}
-                  </p>
-                  <h2 className="text-3xl font-bold md:text-4xl">{section.title} Workbooks</h2>
-                  <p className="mt-2 text-text-secondary">{section.subtitle}</p>
-                </div>
-                <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                  {section.workbooks.map((wb, i) => (
-                    <li key={i}>
-                      <a
-                        href={enc(wb.file)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group flex items-center gap-3 rounded border border-border-primary p-4 transition-colors hover:border-accent hover:bg-accent-lt"
-                      >
-                        <svg
-                          className="h-5 w-5 flex-shrink-0 text-accent"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                          <polyline points="14 2 14 8 20 8" />
-                          <line x1="16" y1="13" x2="8" y2="13" />
-                          <line x1="16" y1="17" x2="8" y2="17" />
-                          <polyline points="10 9 9 9 8 9" />
-                        </svg>
-                        <span className="text-sm font-medium group-hover:text-accent">
-                          {wb.title}
-                        </span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+      </div>
+
+      {/* Workbook Sections */}
+      <div className="max-w-6xl mx-auto px-6 py-12">
+        {sections.map((section) => (
+          <div key={section.id} className="mb-14">
+            <div className="mb-6 border-b border-[#1a3848]/20 pb-3">
+              <h2 className="font-['Playfair_Display'] text-2xl font-bold text-[#1a3848]">
+                {section.title}
+              </h2>
+              <p className="text-sm text-gray-500 mt-1">{section.subtitle}</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {section.workbooks.map((wb) => (
+                <a
+                  key={wb.file}
+                  href={enc(wb.file)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 p-4 border border-gray-200 rounded-lg hover:border-[#c9933a] hover:shadow-sm transition-all duration-200 group"
+                >
+                  <div className="mt-0.5 flex-shrink-0">
+                    <svg className="w-6 h-6 text-[#c9933a]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                        d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold text-[#1a3848] group-hover:text-[#c9933a] transition-colors duration-200 leading-snug">
+                      {wb.title}
+                    </p>
+                    <p className="text-xs text-gray-400 mt-0.5">PDF Workbook</p>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
+        ))}
+      </div>
+
+      {/* Bottom CTA */}
+      <div className="bg-[#1a3848] py-12 px-6 text-center">
+        <h2 className="font-['Playfair_Display'] text-2xl font-bold text-white mb-3">
+          Want to go deeper?
+        </h2>
+        <p className="text-[#e8b96a] mb-6 max-w-xl mx-auto text-sm">
+          These workbooks accompany The Flow System courses. Explore our training options or speak with a coach about what's right for your team.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="/training"
+            className="inline-block bg-[#c9933a] hover:bg-[#e8b96a] text-white font-semibold py-3 px-8 rounded transition-colors duration-200"
+          >
+            Explore Training
+          </a>
+          <button
+            data-tally-open="q4jKz8"
+            data-tally-overlay="1"
+            className="inline-block border border-white text-white hover:bg-white hover:text-[#1a3848] font-semibold py-3 px-8 rounded transition-colors duration-200 cursor-pointer"
+          >
+            Speak with a Coach
+          </button>
         </div>
-      </section>
-    </>
+      </div>
+
+    </div>
   );
 }

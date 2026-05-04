@@ -13,7 +13,7 @@ export function TrainingHeader() {
           </h1>
           <p className="text-white/80 md:text-md mb-8">
             PDN's evidence-based online learning framework. Four modules built on Lean Thinking,
-            Complexity Thinking, Distributed Leadership, and Team Science — designed for leaders
+            Complexity Thinking, Distributed Leadership, and Team Science -- designed for leaders
             and teams navigating change and complexity.
           </p>
           <div className="flex flex-wrap gap-4">

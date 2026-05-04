@@ -7,7 +7,7 @@ const modules = [
     title: "Lean Thinking",
     lessons: "41 lessons",
     description:
-      "Built on the Toyota Production System and the Toyota Way, this module gives you the customer-first, waste-elimination foundation that underpins The Flow System. You'll learn how proven methods for managing predictable processes — continuous improvement, respect for people, and value-stream thinking — form the bedrock of high-performing organisations.",
+      "Built on the Toyota Production System and the Toyota Way, this module gives you the customer-first, waste-elimination foundation that underpins The Flow System. You'll learn how proven methods for managing predictable processes -- continuous improvement, respect for people, and value-stream thinking -- form the bedrock of high-performing organisations.",
   },
   {
     number: "02",
@@ -21,14 +21,14 @@ const modules = [
     title: "Distributed Leadership",
     lessons: "89 lessons",
     description:
-      "Leadership doesn't just flow from the top — this module shows how it operates horizontally, vertically, and everywhere in between. From self-leadership and shared team leadership to functional boundary-spanning roles, you'll build a hybrid leadership model designed for modern complex organisations.",
+      "Leadership doesn't just flow from the top -- this module shows how it operates horizontally, vertically, and everywhere in between. From self-leadership and shared team leadership to functional boundary-spanning roles, you'll build a hybrid leadership model designed for modern complex organisations.",
   },
   {
     number: "04",
     title: "Team Science & Conclusion",
     lessons: "73 lessons",
     description:
-      "Teams are dynamic, complex adaptive systems — and this module draws on the discipline of team science to help you build, design, and sustain high-performing teams. Covering team effectiveness, psychological safety, situational awareness, and multiteam systems, it completes the full Flow System framework with practical tools you can apply immediately.",
+      "Teams are dynamic, complex adaptive systems -- and this module draws on the discipline of team science to help you build, design, and sustain high-performing teams. Covering team effectiveness, psychological safety, situational awareness, and multiteam systems, it completes the full Flow System framework with practical tools you can apply immediately.",
   },
 ];
 

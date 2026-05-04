@@ -22,7 +22,7 @@ export function Header145() {
           <div className="mb-8 h-1 w-12 rounded bg-accent" />
 
           <p className="mb-4 font-body text-sm font-semibold uppercase tracking-[0.15em] text-accent">
-            Team &amp; Organisational Training
+            The operating system for your team
           </p>
 
           <h1 className="mb-8 font-display text-5xl font-bold leading-[1.05] text-white md:text-7xl lg:text-8xl">
@@ -33,9 +33,10 @@ export function Header145() {
           </h1>
 
           <p className="mb-10 max-w-xl font-body text-lg leading-relaxed text-white/80">
-            PDN works with HR leaders and senior managers to
-            transform organisational performance through evidence-based training,
-            coaching, and consulting. We deliver measurable results.
+            PDN is a system for how teams work in complex environments. We equip
+            HR leaders and senior managers with evidence-based training, coaching,
+            and consulting grounded in Lean Thinking, Complexity Thinking,
+            Distributed Leadership, and Team Science.
           </p>
 
           <div className="flex flex-wrap items-center gap-4">

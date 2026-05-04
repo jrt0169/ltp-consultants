@@ -66,7 +66,7 @@ export function Layout237() {
                 href={p.href}
                 className="mt-auto inline-flex items-center gap-2 font-body text-xs font-semibold uppercase tracking-widest text-brand transition-colors hover:text-accent"
               >
-                Learn more <span aria-hidden="true">{'->'}</span>
+                Learn more <span aria-hidden="true">{'\u2192'}</span>
               </Link>
             </div>
           ))}

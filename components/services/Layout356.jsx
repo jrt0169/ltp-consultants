@@ -41,7 +41,7 @@ export function Layout356() {
                           size="link"
                           iconRight={<RxChevronRight />}
                         >
-                          ->
+                          {'->'}
                         </Button>
                       </div>
                     </div>
@@ -93,7 +93,7 @@ export function Layout356() {
                           size="link"
                           iconRight={<RxChevronRight />}
                         >
-                          ->
+                          {'->'}
                         </Button>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ export function Layout356() {
                           size="link"
                           iconRight={<RxChevronRight />}
                         >
-                          ->
+                          {'->'}
                         </Button>
                       </div>
                     </div>

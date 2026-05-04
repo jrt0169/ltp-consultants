@@ -72,7 +72,7 @@ export function Layout239() {
           <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
             <Button variant="secondary">Learn</Button>
             <Button iconRight={<RxChevronRight />} variant="link" size="link">
-              →
+              ->
             </Button>
           </div>
         </div>

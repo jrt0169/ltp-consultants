@@ -35,7 +35,7 @@ export function Layout4() {
             <p className="mb-8 font-body leading-relaxed text-muted">
               PDN's training, coaching, and consulting programs are designed to deliver
               real, measurable improvements in team performance, retention, and
-              engagement — benefiting your organisation's bottom line.
+              engagement -- benefiting your organisation's bottom line.
             </p>
 
             <div className="mb-10 grid grid-cols-2 gap-6 border-t border-line pt-8">
@@ -64,7 +64,7 @@ export function Layout4() {
               className="inline-flex items-center gap-3 rounded-sm bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all duration-200 hover:bg-brand-mid"
             >
               See the results
-              <span aria-hidden="true">→</span>
+              <span aria-hidden="true">-></span>
             </Link>
           </div>
         </div>

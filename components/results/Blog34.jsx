@@ -92,7 +92,7 @@ export function Blog34() {
             href="/contact/book-a-consultation"
             className="inline-flex items-center gap-3 rounded-sm bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all hover:bg-brand-mid"
           >
-            Book a consultation <span aria-hidden="true">-></span>
+            Book a consultation <span aria-hidden="true">{'->'}</span>
           </Link>
         </div>
       </div>

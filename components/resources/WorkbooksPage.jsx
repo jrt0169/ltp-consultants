@@ -71,7 +71,7 @@ export default function WorkbooksPage() {
           TFS Playbook Workbooks
         </h1>
         <p className="text-[#e8b96a] text-lg max-w-2xl mx-auto">
-          39 structured workbooks across Lean Thinking, Complexity Thinking, Distributed Leadership, and Team Science — free to download.
+          39 structured workbooks across Lean Thinking, Complexity Thinking, Distributed Leadership, and Team Science -- free to download.
         </p>
       </div>
 
@@ -79,7 +79,7 @@ export default function WorkbooksPage() {
       <div className="bg-[#254d63] py-10 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-['Playfair_Display'] text-2xl font-bold text-white mb-2">
-            Stay ahead — get notified when new modules launch
+            Stay ahead -- get notified when new modules launch
           </h2>
           <p className="text-[#e8b96a] mb-6 text-sm">
             We're building individual short courses for each of these topics. Register your interest and be first to know when they go live.

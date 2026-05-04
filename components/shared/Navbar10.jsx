@@ -68,12 +68,6 @@ export function Navbar10() {
               Training
             </Link>
             <Link
-              href="/results/case-studies"
-              className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
-            >
-              Results
-            </Link>
-            <Link
               href="/about"
               className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
             >
@@ -252,12 +246,6 @@ export function Navbar10() {
                 className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
               >
                 Training
-              </a>
-              <a
-                href="/results/case-studies"
-                className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
-              >
-                Results
               </a>
               <a
                 href="/about"

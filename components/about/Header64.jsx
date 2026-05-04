@@ -15,9 +15,11 @@ export function Header64() {
           <em className="not-italic text-accent-lt">teams</em>
         </h1>
         <p className="max-w-2xl font-body text-lg leading-relaxed text-white/75 animate-fade-up-delay-2">
-          PDN partners with HR leaders and L&amp;D professionals to
-          transform organisational performance through evidence-based training
-          and team development.
+          PDN is built on a methodology with a published intellectual framework
+          — The Flow System — combining Lean Thinking, Complexity Thinking,
+          Distributed Leadership, and Team Science into a single integrated
+          system. We partner with HR leaders and L&D professionals to turn that
+          framework into measurable organisational performance.
         </p>
       </div>
     </section>

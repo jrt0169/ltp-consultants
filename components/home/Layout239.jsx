@@ -23,7 +23,7 @@ const features = [
     imgSrc: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
     imgAlt: "Flexible hybrid team training delivery",
     title: "Customised delivery",
-    body: "In-person, virtual, or hybrid — designed to fit your organisation's needs, culture, and operational constraints.",
+    body: "In-person, virtual, or hybrid -- designed to fit your organisation's needs, culture, and operational constraints.",
   },
 ];
 
@@ -80,13 +80,13 @@ export function Layout239() {
             className="inline-flex items-center gap-3 rounded-sm bg-accent px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all duration-200 hover:bg-accent-lt"
           >
             Get started
-            <span aria-hidden="true">→</span>
+            <span aria-hidden="true">-></span>
           </Link>
           <Link
             href="/about"
             className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-widest text-white/60 transition-colors hover:text-white"
           >
-            Meet our team <span aria-hidden="true">→</span>
+            Meet our team <span aria-hidden="true">-></span>
           </Link>
         </div>
       </div>

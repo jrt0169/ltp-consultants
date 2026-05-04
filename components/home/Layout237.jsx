@@ -7,7 +7,7 @@ const pillars = [
   {
     number: "01",
     title: "A published intellectual framework",
-    body: "The Flow System is a methodology with published books, 39 workbooks, and peer-reviewed Team Science research at its foundation — not a set of slides someone built last year.",
+    body: "The Flow System is a methodology with published books, 39 workbooks, and peer-reviewed Team Science research at its foundation -- not a set of slides someone built last year.",
     href: "/training",
   },
   {
@@ -66,7 +66,7 @@ export function Layout237() {
                 href={p.href}
                 className="mt-auto inline-flex items-center gap-2 font-body text-xs font-semibold uppercase tracking-widest text-brand transition-colors hover:text-accent"
               >
-                Learn more <span aria-hidden="true">→</span>
+                Learn more <span aria-hidden="true">-></span>
               </Link>
             </div>
           ))}

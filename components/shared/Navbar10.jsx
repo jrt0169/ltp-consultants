@@ -134,7 +134,7 @@ export function Navbar10() {
                             className="flex flex-col gap-2 py-4"
                           >
                             <h5 className="font-semibold">The Flow System</h5>
-                            <p className="text-sm">The evolution of thinking, complexity, and distributed leadership — the book behind the framework.</p>
+                            <p className="text-sm">The evolution of thinking, complexity, and distributed leadership -- the book behind the framework.</p>
                           </a>
                           <a
                             href="https://www.amazon.com/Flow-System-Playbook-John-Turner/dp/B0CKDCKCQQ"

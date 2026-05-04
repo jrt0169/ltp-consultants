@@ -11,7 +11,7 @@ export function Logo4() {
             Industry Affiliates
           </h2>
           <p className="max-w-2xl md:text-md">
-            PDN's training programs are built around evidence-based frameworks developed in collaboration with our industry affiliates. Our curriculum is grounded in The Flow System methodology and distributed through our affiliated publishing imprint, 3 Helix Publishing™.
+            PDN's training programs are built around evidence-based frameworks developed in collaboration with our industry affiliates. Our curriculum is grounded in The Flow System methodology and distributed through our affiliated publishing imprint, 3 Helix Publishing(TM).
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -25,7 +25,7 @@ export function Logo4() {
           <div className="flex min-h-[140px] w-full items-center justify-center bg-neutral-lightest px-6 py-8">
             <img
               src="/Image-1-300.png"
-              alt="The Flow System — Triple Helix of Flow concept"
+              alt="The Flow System -- Triple Helix of Flow concept"
               className="max-h-20 w-auto object-contain"
             />
           </div>

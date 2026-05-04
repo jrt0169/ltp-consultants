@@ -6,9 +6,9 @@ import React from "react";
 const pillars = [
   {
     number: "01",
-    title: "Evidence-based methodology",
-    body: "Every intervention is grounded in organisational psychology and validated through real-world outcomes — not intuition.",
-    href: "/services/what-we-do",
+    title: "A published intellectual framework",
+    body: "The Flow System is a methodology with published books, 39 workbooks, and peer-reviewed Team Science research at its foundation — not a set of slides someone built last year.",
+    href: "/training",
   },
   {
     number: "02",

@@ -29,9 +29,6 @@ export function Footer3() {
                 <Link href="/services/what-we-do">What we do</Link>
               </li>
               <li className="py-2 text-sm font-semibold">
-                <Link href="/results/case-studies">Our results</Link>
-              </li>
-              <li className="py-2 text-sm font-semibold">
                 <Link href="/about">About us</Link>
               </li>
               <li className="py-2 text-sm font-semibold">
@@ -49,9 +46,6 @@ export function Footer3() {
               </li>
             </ul>
             <ul>
-              <li className="py-2 text-sm font-semibold">
-                <Link href="/results/case-studies">Case studies</Link>
-              </li>
               <li className="py-2 text-sm font-semibold">
                 <button
                   data-tally-open="q4jKz8"

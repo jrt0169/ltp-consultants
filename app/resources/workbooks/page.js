@@ -1,5 +1,5 @@
 import { Navbar10 } from "@/components/shared/Navbar10";
-import { WorkbooksPage } from "@/components/resources/WorkbooksPage";
+import WorkbooksPage from "@/components/resources/WorkbooksPage";
 import { Footer3 } from "@/components/shared/Footer3";
 
 export const metadata = {

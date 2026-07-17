@@ -1,6 +1,7 @@
 import { Navbar10 } from "@/components/shared/Navbar10";
 import { TrainingHeader } from "@/components/training/TrainingHeader";
 import { TrainingModules } from "@/components/training/TrainingModules";
+import { TrainingJourney } from "@/components/training/TrainingJourney";
 import { TrainingHowItWorks } from "@/components/training/TrainingHowItWorks";
 import { TrainingPricing } from "@/components/training/TrainingPricing";
 import { TrainingBooks } from "@/components/training/TrainingBooks";
@@ -19,6 +20,7 @@ export default function TrainingPage() {
       <Navbar10 />
       <TrainingHeader />
       <TrainingModules />
+      <TrainingJourney />
       <TrainingHowItWorks />
       <TrainingPricing />
       <TrainingBooks />

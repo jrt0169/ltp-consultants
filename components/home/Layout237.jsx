@@ -3,24 +3,27 @@
 import Link from "next/link";
 import React from "react";
 
-const pillars = [
+const ways = [
   {
     number: "01",
-    title: "A published intellectual framework",
-    body: "The Flow System is a methodology with published books, 39 workbooks, and peer-reviewed Team Science research at its foundation -- not a set of slides someone built last year.",
+    title: "Self-paced training",
+    body: "77 microlearning modules across three disciplines — Complexity Thinking, Distributed Leadership, and Team Science — in English and Español. Start with a single module or a free Start Here course.",
     href: "/training",
+    linkText: "Explore the training",
   },
   {
     number: "02",
-    title: "Built for your organisation",
-    body: "We customise every programme to your specific challenges, culture, and strategic goals. No off-the-shelf workshops.",
-    href: "/services/what-we-do",
+    title: "Coaching cohorts",
+    body: "Small-group virtual coaching that turns the modules into team habits. Structured sessions, real facilitation, and accountability between them — for leaders and their teams.",
+    href: "/contact/book-a-consultation",
+    linkText: "Talk about coaching",
   },
   {
     number: "03",
-    title: "Delivered by experts",
-    body: "Our consultants bring decades of combined experience in team dynamics and organisational transformation.",
-    href: "/about",
+    title: "On-site & consulting",
+    body: "In-person workshops, organisation-wide licensing, and train-the-trainer accreditation. High-touch delivery when you're changing how a whole team or organisation operates.",
+    href: "/services/what-we-do",
+    linkText: "See consulting options",
   },
 ];
 
@@ -32,41 +35,41 @@ export function Layout237() {
         <div className="mb-16 flex flex-col gap-4 md:flex-row md:items-end md:justify-between lg:mb-20">
           <div className="max-w-xl">
             <p className="mb-4 font-body text-xs font-semibold uppercase tracking-[0.15em] text-accent">
-              Proven
+              Ways to work with us
             </p>
             <h2 className="font-display text-4xl font-bold md:text-5xl lg:text-6xl">
-              Results that matter to your bottom line
+              Three ways to put the system to work
             </h2>
           </div>
           <p className="max-w-sm font-body text-muted md:text-right">
-            Our clients see measurable improvements in team performance,
-            retention, and engagement within the first 90 days.
+            One integrated framework, delivered at the depth you need — learn
+            it yourself, coach your team through it, or bring us in.
           </p>
         </div>
 
-        {/* Pillars */}
+        {/* Ways */}
         <div className="grid grid-cols-1 divide-y divide-line md:grid-cols-3 md:divide-x md:divide-y-0">
-          {pillars.map((p) => (
+          {ways.map((w) => (
             <div
-              key={p.number}
+              key={w.number}
               className="group flex flex-col gap-6 py-10 md:px-10 md:py-0 first:md:pl-0 last:md:pr-0"
             >
               <span className="font-display text-5xl font-bold text-line">
-                {p.number}
+                {w.number}
               </span>
               <div>
                 <h3 className="mb-3 font-display text-xl font-semibold leading-snug lg:text-2xl">
-                  {p.title}
+                  {w.title}
                 </h3>
                 <p className="font-body text-sm leading-relaxed text-muted">
-                  {p.body}
+                  {w.body}
                 </p>
               </div>
               <Link
-                href={p.href}
+                href={w.href}
                 className="mt-auto inline-flex items-center gap-2 font-body text-xs font-semibold uppercase tracking-widest text-brand transition-colors hover:text-accent"
               >
-                Learn more <span aria-hidden="true">{'\u2192'}</span>
+                {w.linkText} <span aria-hidden="true">{'→'}</span>
               </Link>
             </div>
           ))}

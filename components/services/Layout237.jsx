@@ -7,7 +7,7 @@ const services = [
     number: "01",
     title: "Online Training",
     description:
-      "Self-paced learning built on The Flow System framework. Work through four evidence-based modules at your own pace, with options to add live coaching and community support.",
+      "Self-paced learning built on The Flow System — 77 microlearning modules across three disciplines, in English and Español. Work at your own pace, with options to add live coaching and community support.",
     link: "/training",
     linkText: "Explore The Flow System",
   },

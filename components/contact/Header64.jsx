@@ -15,8 +15,8 @@ export function Header64() {
           <em className="not-italic text-accent-lt">your team</em>
         </h1>
         <p className="max-w-2xl font-body text-lg leading-relaxed text-white/75 animate-fade-up-delay-2">
-          A 30-minute conversation is all it takes to determine whether LTP
-          Consultants is the right fit for your organisation.
+          A 30-minute conversation is all it takes to determine whether
+          we&apos;re the right fit for your organisation.
         </p>
       </div>
     </section>

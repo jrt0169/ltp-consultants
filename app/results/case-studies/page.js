@@ -1,5 +1,6 @@
 import { Navbar10 } from "@/components/shared/Navbar10";
 import { Header64 } from "@/components/results/Header64";
+import { Provenance } from "@/components/results/Provenance";
 import { Endorsements } from "@/components/shared/Endorsements";
 import { Footer3 } from "@/components/shared/Footer3";
 
@@ -13,6 +14,7 @@ export default function ResultsPage() {
     <div>
       <Navbar10 />
       <Header64 />
+      <Provenance />
       <Endorsements />
       <Footer3 />
     </div>

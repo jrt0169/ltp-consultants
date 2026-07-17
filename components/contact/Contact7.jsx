@@ -85,11 +85,11 @@ export function Contact7() {
 
         {/* Image + trust signals */}
         <div className="flex flex-col gap-8">
-          <div className="overflow-hidden rounded-sm">
+          <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-sm bg-surface p-10">
             <img
-              src="https://tempfile.aiquickdraw.com/image-format-converter/1776175463935-798ix57nue6.jpg"
-              alt="LTP Consultants consultation"
-              className="aspect-[4/3] w-full object-cover"
+              src="/Image-1-300.png"
+              alt="The Flow System — the Triple Helix of Complexity Thinking, Distributed Leadership, and Team Science"
+              className="w-full max-w-sm object-contain"
             />
           </div>
           <div className="rounded-sm border border-line bg-surface p-7">

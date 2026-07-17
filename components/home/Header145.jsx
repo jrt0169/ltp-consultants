@@ -6,15 +6,14 @@ import React from "react";
 export function Header145() {
   return (
     <section className="relative overflow-hidden bg-brand">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-mid via-brand to-brand" />
         <img
-          src="https://tempfile.aiquickdraw.com/image-format-converter/1776175382652-pq9r3wijcx.jpg"
-          id="hero-bg-img"
-          className="h-full w-full object-cover opacity-30"
+          src="/Flow System Logo SM Transparent.png"
+          className="absolute right-[-4%] top-1/2 hidden w-[46%] max-w-2xl -translate-y-1/2 object-contain opacity-10 lg:block"
           alt=""
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand via-brand/80 to-brand/30" />
       </div>
 
       <div className="relative z-10 px-[5%] py-24 md:py-36 lg:py-48">

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 const clients = [
@@ -45,6 +46,12 @@ export function Provenance() {
               and our ongoing syntheses of the leadership and complexity
               literature let sceptical buyers check the work for themselves.
             </p>
+            <Link
+              href="/research"
+              className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-widest text-brand transition-colors hover:text-accent"
+            >
+              See the full research base <span aria-hidden="true">{"→"}</span>
+            </Link>
           </div>
         </div>
 

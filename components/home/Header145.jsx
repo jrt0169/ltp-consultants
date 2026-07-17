@@ -46,6 +46,12 @@ export function Header145() {
               Book a Consultation
             </Link>
             <Link
+              href="/diagnose"
+              className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-widest text-white/70 transition-colors duration-200 hover:text-white"
+            >
+              Diagnose your team
+            </Link>
+            <Link
               href="/services/what-we-do"
               className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-widest text-white/70 transition-colors duration-200 hover:text-white"
             >

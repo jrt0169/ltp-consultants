@@ -68,6 +68,12 @@ export function Navbar10() {
               Training
             </Link>
             <Link
+              href="/the-flow-system"
+              className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
+            >
+              The Flow System
+            </Link>
+            <Link
               href="/about"
               className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
             >
@@ -246,6 +252,12 @@ export function Navbar10() {
                 className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
               >
                 Training
+              </a>
+              <a
+                href="/the-flow-system"
+                className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
+              >
+                The Flow System
               </a>
               <a
                 href="/about"

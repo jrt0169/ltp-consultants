@@ -2,10 +2,10 @@
 import React from "react";
 import { sections } from "./workbooksData";
 
-// Dedicated "Workbook Access" Tally form (tally.so/r/yPRVWd) — captures the
-// email and, via Tally's redirect-on-completion, forwards to
-// /resources/workbooks/library. The "Speak with a Coach" buttons keep the
-// general contact form (q4jKz8).
+// "Workbook Access" Tally form (tally.so/r/yPRVWd) — captures the email, then
+// its thank-you message links to /resources/workbooks/library (redirect-on-
+// completion is Tally Pro-only, so the library is delivered via that link).
+// The "Speak with a Coach" buttons keep the general contact form (q4jKz8).
 const TALLY_WORKBOOK_FORM = "yPRVWd";
 
 const totalCount = sections.reduce((n, s) => n + s.workbooks.length, 0);
@@ -24,7 +24,7 @@ export default function WorkbooksPage() {
         <p className="text-[#e8b96a] text-lg max-w-2xl mx-auto mb-8">
           {totalCount} structured workbooks across Lean Thinking, Complexity
           Thinking, Distributed Leadership, and Team Science. Enter your email
-          and we&apos;ll take you straight to the full library.
+          to unlock the full library.
         </p>
         <button
           data-tally-open={TALLY_WORKBOOK_FORM}

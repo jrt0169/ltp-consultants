@@ -1,29 +1,29 @@
 "use client";
 
 import React from "react";
-import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
+import { BiCalendar, BiEnvelope, BiSupport } from "react-icons/bi";
 
 const contactItems = [
   {
     icon: BiEnvelope,
     label: "Email",
-    sub: "Reach us directly",
-    value: "hello@ltpconsultants.com",
-    href: "mailto:hello@ltpconsultants.com",
+    sub: "General enquiries",
+    value: "john.turner@pdnlearn.com",
+    href: "mailto:john.turner@pdnlearn.com",
   },
   {
-    icon: BiPhone,
-    label: "Phone",
-    sub: "Call our team",
-    value: "+1 (844) 587-2900",
-    href: "tel:+18445872900",
+    icon: BiSupport,
+    label: "Support",
+    sub: "Course & training help",
+    value: "support@getflowtrained.com",
+    href: "mailto:support@getflowtrained.com",
   },
   {
-    icon: BiMap,
-    label: "Office",
-    sub: "1875 Connecticut Avenue NW",
-    value: "Washington, DC 20009",
-    href: "https://maps.google.com",
+    icon: BiCalendar,
+    label: "Book a call",
+    sub: "30-minute discovery call",
+    value: "Schedule a time",
+    cal: true,
   },
 ];
 
@@ -40,7 +40,7 @@ export function Contact13() {
             Get in touch
           </h2>
           <p className="mt-4 font-body text-muted">
-            Our team responds within one business day.
+            We respond within one business day.
           </p>
         </div>
 
@@ -57,12 +57,23 @@ export function Contact13() {
                 {item.label}
               </h3>
               <p className="mb-3 font-body text-sm text-muted">{item.sub}</p>
-              <a
-                href={item.href}
-                className="font-body text-sm font-semibold text-brand underline underline-offset-2 hover:text-accent"
-              >
-                {item.value}
-              </a>
+              {item.cal ? (
+                <button
+                  data-cal-link="john-turner-edmqah/discovery-call"
+                  data-cal-namespace="discovery-call"
+                  data-cal-config='{"layout":"month_view"}'
+                  className="font-body text-sm font-semibold text-brand underline underline-offset-2 hover:text-accent"
+                >
+                  {item.value}
+                </button>
+              ) : (
+                <a
+                  href={item.href}
+                  className="font-body text-sm font-semibold text-brand underline underline-offset-2 hover:text-accent"
+                >
+                  {item.value}
+                </a>
+              )}
             </div>
           ))}
         </div>

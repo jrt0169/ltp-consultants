@@ -93,19 +93,23 @@ export function Contact7() {
             />
           </div>
           <div className="rounded-sm border border-line bg-surface p-7">
-            <p className="mb-5 font-display text-lg font-semibold italic text-brand">
-              &ldquo;They understood our culture from day one. No generic
-              playbook -- just real solutions.&rdquo;
+            <p className="mb-5 font-body text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+              What to expect
             </p>
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent font-body text-sm font-bold text-white">
-                P
-              </div>
-              <div>
-                <p className="font-body text-sm font-semibold">Dr. Patricia Okonkwo</p>
-                <p className="font-body text-xs text-muted">CMO, Regional Healthcare Network</p>
-              </div>
-            </div>
+            <ul className="flex flex-col gap-4 font-body text-sm text-brand">
+              <li className="flex gap-3">
+                <span aria-hidden="true" className="text-accent">&mdash;</span>
+                <span>A 30-minute conversation about your team and goals.</span>
+              </li>
+              <li className="flex gap-3">
+                <span aria-hidden="true" className="text-accent">&mdash;</span>
+                <span>We listen first &mdash; no generic playbook, no pressure.</span>
+              </li>
+              <li className="flex gap-3">
+                <span aria-hidden="true" className="text-accent">&mdash;</span>
+                <span>A clear recommendation on the right way to work together.</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

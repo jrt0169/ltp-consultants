@@ -54,6 +54,16 @@ export function Header145() {
             </Link>
           </div>
 
+          <div className="mt-12 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-white/15 pt-8 font-body text-sm text-white/70">
+            <span>Authors of <em className="not-italic font-semibold text-white">The Flow System</em></span>
+            <span aria-hidden="true" className="text-white/25">/</span>
+            <span>Research-grounded</span>
+            <span aria-hidden="true" className="text-white/25">/</span>
+            <span>77 modules &middot; 3 disciplines</span>
+            <span aria-hidden="true" className="text-white/25">/</span>
+            <span>English + Espa&ntilde;ol</span>
+          </div>
+
         </div>
       </div>
     </section>

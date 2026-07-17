@@ -8,15 +8,16 @@ export function Header64() {
       <div className="container max-w-4xl">
         <div className="mb-8 h-1 w-12 rounded bg-accent animate-fade-in" />
         <p className="mb-5 font-body text-xs font-semibold uppercase tracking-[0.15em] text-accent animate-fade-up">
-          Results
+          Evidence base
         </p>
         <h1 className="mb-8 font-display text-5xl font-bold leading-tight text-white md:text-7xl lg:text-8xl animate-fade-up-delay-1">
-          Results that{" "}
-          <em className="not-italic text-accent-lt">matter</em>
+          Grounded in{" "}
+          <em className="not-italic text-accent-lt">research</em>
         </h1>
         <p className="max-w-2xl font-body text-lg leading-relaxed text-white/75 animate-fade-up-delay-2">
-          See how leading organisations transformed their teams and performance
-          metrics through evidence-based LTP programmes.
+          The Flow System is built on peer-reviewed research in complexity,
+          distributed leadership, and team science &mdash; and endorsed by
+          leaders across Lean, Agile, and management practice.
         </p>
       </div>
     </section>

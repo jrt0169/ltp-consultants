@@ -293,78 +293,34 @@ export function Navbar10() {
                     <div className="mx-auto flex size-full max-w-full items-center justify-between">
                       <div className="flex w-full flex-col lg:flex-row">
                         <div className="w-full content-start py-4 sm:py-8 lg:max-w-[15rem] lg:pr-8">
-                          <div className="grid auto-cols-fr auto-rows-max grid-cols-1 grid-rows-[max-content_max-content_max-content_max-content_max-content] gap-y-4">
+                          <div className="grid auto-cols-fr auto-rows-max grid-cols-1 grid-rows-[max-content_max-content_max-content_max-content] gap-y-4">
                             <h4 className="text-sm font-semibold leading-[1.4] md:leading-[1.3]">
-                              Blog categories
+                              Books
                             </h4>
-                            <a href="#">Leadership</a>
-                            <a href="#">Team Performance</a>
-                            <a href="#">Coaching</a>
-                            <a href="#">Consulting</a>
-                            <a href="#">Culture</a>
+                            <a href="https://www.amazon.com/dp/1680400584" target="_blank" rel="noopener noreferrer">The Flow System</a>
+                            <a href="https://www.amazon.com/Flow-System-Playbook-John-Turner/dp/B0CKDCKCQQ" target="_blank" rel="noopener noreferrer">The Flow System Playbook</a>
+                            <a href="/resources/workbooks">TFS Playbook Workbooks</a>
                           </div>
                         </div>
                         <div className="relative flex w-full flex-wrap items-start justify-center pb-6 lg:items-stretch lg:pt-6">
                           <div className="grid w-full auto-cols-max auto-rows-max grid-cols-1 grid-rows-[max-content] gap-x-12 gap-y-8 sm:grid-cols-2 lg:gap-y-2">
-                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
-                              <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 1" className="absolute inset-0 size-full object-cover" />
-                              </div>
-                              <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">Article Title</h5>
-                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
-                              </div>
+                            <a
+                              href="https://www.amazon.com/dp/1680400584"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex flex-col gap-2 py-4"
+                            >
+                              <h5 className="font-semibold">The Flow System</h5>
+                              <p className="text-sm">The evolution of thinking, complexity, and distributed leadership -- the book behind the framework.</p>
                             </a>
-                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
-                              <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 2" className="absolute inset-0 size-full object-cover" />
-                              </div>
-                              <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">Article Title</h5>
-                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
-                              </div>
-                            </a>
-                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
-                              <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 3" className="absolute inset-0 size-full object-cover" />
-                              </div>
-                              <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">Article Title</h5>
-                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
-                              </div>
-                            </a>
-                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
-                              <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 4" className="absolute inset-0 size-full object-cover" />
-                              </div>
-                              <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">Article Title</h5>
-                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
-                              </div>
-                            </a>
-                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
-                              <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 5" className="absolute inset-0 size-full object-cover" />
-                              </div>
-                              <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">Article Title</h5>
-                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
-                              </div>
-                            </a>
-                            <a href="#" className="grid max-w-full auto-cols-fr grid-cols-1 items-start gap-x-6 gap-y-4 py-2 lg:grid-cols-[0.5fr_1fr] lg:gap-y-0">
-                              <div className="relative flex w-full flex-col pt-[66.6%] lg:flex-row">
-                                <img src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg" alt="Relume placeholder image 6" className="absolute inset-0 size-full object-cover" />
-                              </div>
-                              <div className="flex w-full flex-col justify-center self-center lg:w-auto">
-                                <h5 className="mb-1 font-semibold">Article Title</h5>
-                                <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Button title="Read more" variant="link" size="link" className="mt-2 w-fit text-sm underline">Read more</Button>
-                              </div>
+                            <a
+                              href="https://www.amazon.com/Flow-System-Playbook-John-Turner/dp/B0CKDCKCQQ"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex flex-col gap-2 py-4"
+                            >
+                              <h5 className="font-semibold">The Flow System Playbook</h5>
+                              <p className="text-sm">A practical implementation guide for applying The Flow System in your organisation.</p>
                             </a>
                           </div>
                         </div>

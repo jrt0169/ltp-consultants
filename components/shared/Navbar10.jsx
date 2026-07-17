@@ -120,7 +120,7 @@ export function Navbar10() {
                           <h4 className="text-sm font-semibold leading-[1.4] md:leading-[1.3]">
                             Books
                           </h4>
-                          <a href="https://www.amazon.com/dp/B08NXPGMSC" target="_blank" rel="noopener noreferrer">The Flow System</a>
+                          <a href="https://www.amazon.com/dp/1680400584" target="_blank" rel="noopener noreferrer">The Flow System</a>
                           <a href="https://www.amazon.com/Flow-System-Playbook-John-Turner/dp/B0CKDCKCQQ" target="_blank" rel="noopener noreferrer">The Flow System Playbook</a>
                           <a href="/resources/workbooks">TFS Playbook Workbooks</a>
                         </div>
@@ -128,7 +128,7 @@ export function Navbar10() {
                       <div className="relative flex w-full flex-wrap items-start justify-center pb-6 lg:items-stretch lg:pt-6">
                         <div className="grid w-full auto-cols-max auto-rows-max grid-cols-1 grid-rows-[max-content] gap-x-12 gap-y-8 sm:grid-cols-2 lg:gap-y-2">
                           <a
-                            href="https://www.amazon.com/dp/B08NXPGMSC"
+                            href="https://www.amazon.com/dp/1680400584"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex flex-col gap-2 py-4"

@@ -37,6 +37,9 @@ export const metadata = {
     "microlearning",
   ],
   authors: [{ name: "Dr. John R. Turner" }, { name: "Nigel Thurlow" }],
+  verification: {
+    google: "SLzssEL-oSSH825HXB-Dsk91FdIPcr5pB3QEGkgUjoM",
+  },
   openGraph: {
     type: "website",
     siteName: "Performance Development Network",

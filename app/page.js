@@ -2,7 +2,7 @@ import { Navbar10 } from "@/components/shared/Navbar10";
 import { Header145 } from "@/components/home/Header145";
 import { Layout237 } from "@/components/home/Layout237";
 import { Layout4 } from "@/components/home/Layout4";
-import { Layout239 } from "@/components/home/Layout239";
+import { FrontDoors } from "@/components/shared/FrontDoors";
 import { Endorsements } from "@/components/shared/Endorsements";
 import { Footer3 } from "@/components/shared/Footer3";
 
@@ -14,7 +14,7 @@ export default function HomePage() {
       <Layout237 />
       <Layout4 />
       <Endorsements />
-      <Layout239 />
+      <FrontDoors />
       <Footer3 />
     </div>
   );

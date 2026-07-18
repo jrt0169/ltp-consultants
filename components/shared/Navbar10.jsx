@@ -56,6 +56,12 @@ export function Navbar10() {
         <div className="absolute hidden h-screen overflow-auto border-b border-border-primary bg-background-primary px-[5%] pb-24 pt-4 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">
           <div className="flex flex-col items-center lg:flex-row">
             <Link
+              href="/ways-to-work"
+              className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
+            >
+              Ways to Work
+            </Link>
+            <Link
               href="/services/what-we-do"
               className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
             >
@@ -241,6 +247,12 @@ export function Navbar10() {
             className="absolute left-0 right-0 top-0 block h-dvh overflow-auto border-b border-border-primary bg-background-primary px-[5%] pb-8 pt-4"
           >
             <div className="flex flex-col">
+              <a
+                href="/ways-to-work"
+                className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
+              >
+                Ways to Work
+              </a>
               <a
                 href="/services/what-we-do"
                 className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"

@@ -26,6 +26,9 @@ export function Footer3() {
           <div className="grid grid-cols-1 items-start gap-x-6 gap-y-10 md:grid-cols-2 md:gap-x-8 md:gap-y-4">
             <ul>
               <li className="py-2 text-sm font-semibold">
+                <Link href="/ways-to-work">Ways to work</Link>
+              </li>
+              <li className="py-2 text-sm font-semibold">
                 <Link href="/services/what-we-do">What we do</Link>
               </li>
               <li className="py-2 text-sm font-semibold">

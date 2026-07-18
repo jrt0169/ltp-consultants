@@ -74,6 +74,16 @@ export function Layout237() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12">
+          <Link
+            href="/ways-to-work"
+            className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-widest text-brand transition-colors hover:text-accent"
+          >
+            Compare all the ways to work with us{" "}
+            <span aria-hidden="true">{"→"}</span>
+          </Link>
+        </div>
       </div>
     </section>
   );

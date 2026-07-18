@@ -22,6 +22,36 @@ export function Footer3() {
               <p className="mb-1 text-sm font-semibold">Location</p>
               <p className="mb-5 text-sm md:mb-6">College Station, TX</p>
             </div>
+            <div className="mb-6 md:mb-8">
+              <p className="mb-3 text-sm font-semibold">Ecosystem</p>
+              <ul className="flex flex-col gap-2 text-sm">
+                <li>
+                  <a href="https://science-teams.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    Science Teams
+                  </a>
+                </li>
+                <li>
+                  <a href="https://getflowtrained.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    Get Flow Trained
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.flowconsortium.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    The Flow Consortium
+                  </a>
+                </li>
+                <li>
+                  <a href="https://flowguides.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    Flow Guides
+                  </a>
+                </li>
+                <li>
+                  <a href="https://professor-turner.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    Dr. John R. Turner
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="grid grid-cols-1 items-start gap-x-6 gap-y-10 md:grid-cols-2 md:gap-x-8 md:gap-y-4">
             <ul>

@@ -18,15 +18,68 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "PDN | Performance Development Network",
+  metadataBase: new URL("https://pdnlearn.com"),
+  title: "Team Training, Coaching & Leadership Development | Performance Development Network",
   description:
-    "Performance Development Network (PDN) delivers online training, coaching, and consulting services that drive measurable results. Book a consultation today.",
+    "Team training, coaching, and leadership development from Performance Development Network (PDN) — built on The Flow System: Complexity Thinking, Distributed Leadership, and Team Science.",
+  applicationName: "Performance Development Network",
+  keywords: [
+    "team training",
+    "team coaching",
+    "leader training",
+    "leadership development",
+    "leadership training",
+    "team performance",
+    "The Flow System",
+    "complexity thinking",
+    "distributed leadership",
+    "team science",
+    "microlearning",
+  ],
+  authors: [{ name: "Dr. John R. Turner" }, { name: "Nigel Thurlow" }],
+  openGraph: {
+    type: "website",
+    siteName: "Performance Development Network",
+    url: "https://pdnlearn.com",
+    title: "Team Training, Coaching & Leadership Development | PDN",
+    description:
+      "Team training, coaching, and leadership development built on The Flow System — an integrated system of Complexity Thinking, Distributed Leadership, and Team Science.",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Team Training, Coaching & Leadership Development | PDN",
+    description:
+      "Team training, coaching, and leadership development built on The Flow System — Complexity Thinking, Distributed Leadership, and Team Science.",
+  },
+};
+
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Performance Development Network, LLC",
+  alternateName: "PDN",
+  url: "https://pdnlearn.com",
+  logo: "https://pdnlearn.com/Logo-01.png",
+  description:
+    "Team training, coaching, and leadership development built on The Flow System — Complexity Thinking, Distributed Leadership, and Team Science.",
+  sameAs: [
+    "https://science-teams.com",
+    "https://getflowtrained.com",
+    "https://www.flowconsortium.com/",
+    "https://professor-turner.com/",
+    "https://flowguides.org/",
+  ],
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
         {children}
         <Script src="https://tally.so/widgets/embed.js" strategy="afterInteractive" />
         <Script id="cal-embed" strategy="afterInteractive">{`

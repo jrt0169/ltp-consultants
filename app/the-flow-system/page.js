@@ -5,6 +5,12 @@ import { Footer3 } from "@/components/shared/Footer3";
 export const metadata = {
   title: "The Flow System | Performance Development Network",
   description: "The Triple Helix — how Complexity Thinking, Distributed Leadership, and Team Science weave into one operating system for teams.",
+  alternates: { canonical: "/the-flow-system" },
+  openGraph: {
+    title: "The Flow System — Three Disciplines, One System",
+    description: "How Complexity Thinking, Distributed Leadership, and Team Science weave into one operating system for how teams work.",
+    url: "https://pdnlearn.com/the-flow-system",
+  },
 };
 
 export default function FlowSystemPage() {

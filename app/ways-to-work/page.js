@@ -9,6 +9,12 @@ import Link from "next/link";
 export const metadata = {
   title: "Ways to Work With Us | Performance Development Network",
   description: "Learn it yourself, coach your team through it, or bring us in. One integrated system — self-paced training, coaching cohorts, and on-site consulting.",
+  alternates: { canonical: "/ways-to-work" },
+  openGraph: {
+    title: "Ways to Work With Us",
+    description: "Self-paced training, coaching cohorts, and on-site consulting — one integrated system, delivered at the depth you need.",
+    url: "https://pdnlearn.com/ways-to-work",
+  },
 };
 
 export default function WaysToWorkPage() {

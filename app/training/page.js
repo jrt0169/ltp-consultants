@@ -12,6 +12,13 @@ export const metadata = {
   title: "The Flow System | PDN Training",
   description:
     "Self-paced Flow System training in Complexity Thinking, Distributed Leadership, and Team Science — 77 research-grounded modules, English and Spanish. Start free.",
+  alternates: { canonical: "/training" },
+  openGraph: {
+    title: "The Flow System Training — 77 Microlearning Modules",
+    description:
+      "Self-paced team training across Complexity Thinking, Distributed Leadership, and Team Science. 77 modules, English and Español. Start free.",
+    url: "https://pdnlearn.com/training",
+  },
 };
 
 export default function TrainingPage() {

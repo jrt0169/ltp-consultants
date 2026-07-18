@@ -6,6 +6,10 @@ import { FrontDoors } from "@/components/shared/FrontDoors";
 import { Endorsements } from "@/components/shared/Endorsements";
 import { Footer3 } from "@/components/shared/Footer3";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default function HomePage() {
   return (
     <div>

@@ -33,7 +33,8 @@ export function Header145() {
           </h1>
 
           <p className="mb-10 max-w-xl font-body text-lg leading-relaxed text-white/80">
-            PDN is a system for how teams work in complex environments. We equip
+            Performance Development Network (PDN) is a system for how teams work
+            in complex environments. We equip
             HR leaders and senior managers with evidence-based training, coaching,
             and consulting grounded in Lean Thinking, Complexity Thinking,
             Distributed Leadership, and Team Science.

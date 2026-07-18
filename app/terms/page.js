@@ -11,7 +11,7 @@ export default function TermsPage() {
       <P>
         These Terms of Service (&ldquo;Terms&rdquo;) govern your use of
         pdnlearn.com (the &ldquo;Site&rdquo;), operated by Performance
-        Development Network (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;,
+        Development Network, LLC (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;,
         &ldquo;us&rdquo;, or &ldquo;our&rdquo;). By using the Site, you agree to
         these Terms. If you do not agree, please do not use the Site.
       </P>

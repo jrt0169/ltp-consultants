@@ -9,7 +9,7 @@ export default function PrivacyPage() {
   return (
     <LegalLayout title="Privacy Policy" lastUpdated="July 18, 2026">
       <P>
-        This Privacy Policy explains how Performance Development Network
+        This Privacy Policy explains how Performance Development Network, LLC
         (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
         &ldquo;our&rdquo;) collects, uses, and protects information when you
         visit pdnlearn.com (the &ldquo;Site&rdquo;) or contact us. By using the

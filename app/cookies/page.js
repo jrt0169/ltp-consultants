@@ -9,7 +9,7 @@ export default function CookiesPage() {
   return (
     <LegalLayout title="Cookie Policy" lastUpdated="July 18, 2026">
       <P>
-        This Cookie Policy explains how Performance Development Network
+        This Cookie Policy explains how Performance Development Network, LLC
         (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
         &ldquo;our&rdquo;) uses cookies and similar technologies on pdnlearn.com
         (the &ldquo;Site&rdquo;).

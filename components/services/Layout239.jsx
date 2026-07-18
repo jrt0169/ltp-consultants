@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
+import { BookCallButton } from "@/components/shared/BookCall";
 
 const includes = [
   {
@@ -62,13 +62,10 @@ export function Layout239() {
         </div>
 
         <div className="mt-12">
-          <Link
-            href="/contact/book-a-consultation"
-            className="inline-flex items-center gap-3 rounded-sm bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all duration-200 hover:bg-brand-mid"
-          >
+          <BookCallButton className="inline-flex items-center gap-3 rounded-sm bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all duration-200 hover:bg-brand-mid">
             Book a consultation
             <span aria-hidden="true">{'→'}</span>
-          </Link>
+          </BookCallButton>
         </div>
       </div>
     </section>

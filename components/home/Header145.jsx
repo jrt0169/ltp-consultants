@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
+import { BookCallButton } from "@/components/shared/BookCall";
 
 export function Header145() {
   return (
@@ -39,12 +40,9 @@ export function Header145() {
           </p>
 
           <div className="flex flex-wrap items-center gap-4">
-            <Link
-              href="/contact/book-a-consultation"
-              className="inline-flex items-center rounded-sm bg-accent px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all duration-200 hover:bg-accent-lt hover:shadow-lg"
-            >
+            <BookCallButton className="inline-flex items-center rounded-sm bg-accent px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all duration-200 hover:bg-accent-lt hover:shadow-lg">
               Book a Consultation
-            </Link>
+            </BookCallButton>
             <Link
               href="/diagnose"
               className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-widest text-white/70 transition-colors duration-200 hover:text-white"

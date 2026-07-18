@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import { BookCallButton } from "@/components/shared/BookCall";
 
 const services = [
   {
@@ -16,7 +17,7 @@ const services = [
     title: "Live Virtual Programs",
     description:
       "Flexible formats that work across distributed teams without sacrificing depth or accountability. Designed to fit your calendar and your team's reality.",
-    link: "/contact/book-a-consultation",
+    cal: true,
     linkText: "Book a consultation",
   },
   {
@@ -24,7 +25,7 @@ const services = [
     title: "In-Person Workshops",
     description:
       "Intensive, multi-day sessions that create immediate alignment and shift behaviour in real time. Delivered at your location or a venue of your choice.",
-    link: "/contact/book-a-consultation",
+    cal: true,
     linkText: "Book a consultation",
   },
   {
@@ -32,7 +33,7 @@ const services = [
     title: "Coaching & Consulting",
     description:
       "Executive coaching and organisational consulting for leaders and teams navigating change, complexity, and performance challenges.",
-    link: "/contact/book-a-consultation",
+    cal: true,
     linkText: "Book a consultation",
   },
 ];
@@ -64,12 +65,18 @@ export function Layout237() {
                   {s.title}
                 </h3>
                 <p className="mb-6">{s.description}</p>
-                <Link
-                  href={s.link}
-                  className="inline-flex items-center gap-2 font-semibold underline-offset-4 hover:underline"
-                >
-                  {s.linkText}
-                </Link>
+                {s.cal ? (
+                  <BookCallButton className="inline-flex w-fit items-center gap-2 font-semibold underline-offset-4 hover:underline">
+                    {s.linkText}
+                  </BookCallButton>
+                ) : (
+                  <Link
+                    href={s.link}
+                    className="inline-flex items-center gap-2 font-semibold underline-offset-4 hover:underline"
+                  >
+                    {s.linkText}
+                  </Link>
+                )}
               </div>
             ))}
           </div>

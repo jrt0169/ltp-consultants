@@ -3,6 +3,7 @@ import { Continuum } from "@/components/ways/Continuum";
 import { Chooser } from "@/components/ways/Chooser";
 import { FrontDoors } from "@/components/shared/FrontDoors";
 import { Footer3 } from "@/components/shared/Footer3";
+import { BookCallButton } from "@/components/shared/BookCall";
 import Link from "next/link";
 
 export const metadata = {
@@ -56,12 +57,9 @@ export default function WaysToWorkPage() {
             Book a 30-minute call and we&apos;ll help you find the right way in
             for your team.
           </p>
-          <Link
-            href="/contact/book-a-consultation"
-            className="inline-flex items-center gap-3 rounded-sm bg-accent px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all hover:bg-accent-lt"
-          >
+          <BookCallButton className="inline-flex items-center gap-3 rounded-sm bg-accent px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all hover:bg-accent-lt">
             Book a consultation <span aria-hidden="true">{"→"}</span>
-          </Link>
+          </BookCallButton>
         </div>
       </section>
 

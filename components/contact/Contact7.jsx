@@ -1,89 +1,44 @@
 "use client";
 
-import { Button, Checkbox, Input, Label, Textarea } from "@relume_io/relume-ui";
 import React from "react";
+import { BookCallButton } from "@/components/shared/BookCall";
 
 export function Contact7() {
   return (
     <section className="px-[5%] py-20 md:py-28 lg:py-32">
       <div className="container grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-20">
-        {/* Form */}
+        {/* Reach us */}
         <div>
-          <div className="mb-10">
+          <div className="mb-8">
             <div className="mb-6 h-1 w-10 rounded bg-accent" />
             <p className="mb-3 font-body text-xs font-semibold uppercase tracking-[0.15em] text-accent">
-              Schedule
+              Get in touch
             </p>
             <h2 className="mb-4 font-display text-4xl font-bold md:text-5xl">
-              Your consultation
+              Tell us about your team
             </h2>
             <p className="font-body text-muted">
-              Tell us about your team and what you're working toward.
+              Send a message and we&apos;ll respond within one business day — or
+              book a call and skip the back-and-forth.
             </p>
           </div>
 
-          <form className="grid grid-cols-1 gap-5">
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-              <div className="grid w-full items-center">
-                <Label htmlFor="name" className="mb-2 font-body text-sm font-semibold">
-                  Full Name
-                </Label>
-                <Input
-                  type="text"
-                  id="name"
-                  placeholder="Jane Smith"
-                  className="rounded-sm border-line font-body"
-                />
-              </div>
-              <div className="grid w-full items-center">
-                <Label htmlFor="company" className="mb-2 font-body text-sm font-semibold">
-                  Company
-                </Label>
-                <Input
-                  type="text"
-                  id="company"
-                  placeholder="Acme Corp"
-                  className="rounded-sm border-line font-body"
-                />
-              </div>
-            </div>
-            <div className="grid w-full items-center">
-              <Label htmlFor="email" className="mb-2 font-body text-sm font-semibold">
-                Work Email
-              </Label>
-              <Input
-                type="email"
-                id="email"
-                placeholder="jane@acmecorp.com"
-                className="rounded-sm border-line font-body"
-              />
-            </div>
-            <div className="grid w-full items-center">
-              <Label htmlFor="message" className="mb-2 font-body text-sm font-semibold">
-                What challenge are you trying to solve?
-              </Label>
-              <Textarea
-                id="message"
-                placeholder="Describe your team's situation..."
-                className="min-h-[140px] overflow-auto rounded-sm border-line font-body"
-              />
-            </div>
-            <div className="flex items-center gap-3">
-              <Checkbox id="terms" />
-              <Label htmlFor="terms" className="cursor-pointer font-body text-sm text-muted">
-                I agree to the privacy policy and terms of service
-              </Label>
-            </div>
+          <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap">
             <button
-              type="submit"
-              className="inline-flex w-full items-center justify-center rounded-sm bg-brand py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all hover:bg-brand-mid sm:w-auto sm:px-10"
+              type="button"
+              data-tally-open="q4jKz8"
+              data-tally-overlay="1"
+              className="inline-flex items-center justify-center gap-3 rounded-sm bg-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-white transition-all hover:bg-brand-mid"
             >
-              Book Consultation {'\u2192'}
+              Send us a message <span aria-hidden="true">{"→"}</span>
             </button>
-          </form>
+            <BookCallButton className="inline-flex items-center justify-center gap-3 rounded-sm border border-brand px-8 py-4 font-body text-sm font-semibold uppercase tracking-widest text-brand transition-all hover:bg-brand hover:text-white">
+              Book a discovery call
+            </BookCallButton>
+          </div>
         </div>
 
-        {/* Image + trust signals */}
+        {/* Image + what to expect */}
         <div className="flex flex-col gap-8">
           <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-sm bg-surface p-10">
             <img

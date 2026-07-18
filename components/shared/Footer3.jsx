@@ -59,13 +59,13 @@ export function Footer3() {
                 </button>
               </li>
               <li className="py-2 text-sm font-semibold">
-                <a href="#">Privacy</a>
+                <Link href="/privacy">Privacy</Link>
               </li>
               <li className="py-2 text-sm font-semibold">
-                <a href="#">Terms</a>
+                <Link href="/terms">Terms</Link>
               </li>
               <li className="py-2 text-sm font-semibold">
-                <a href="#">Cookies</a>
+                <Link href="/cookies">Cookies</Link>
               </li>
             </ul>
           </div>
@@ -75,13 +75,13 @@ export function Footer3() {
           <p className="mt-8 md:mt-0">(c) 2026 Performance Development Network. All rights reserved.</p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
-              <a href="#">Privacy policy</a>
+              <Link href="/privacy">Privacy policy</Link>
             </li>
             <li className="underline">
-              <a href="#">Terms of service</a>
+              <Link href="/terms">Terms of service</Link>
             </li>
             <li className="underline">
-              <a href="#">Cookies settings</a>
+              <Link href="/cookies">Cookie policy</Link>
             </li>
           </ul>
         </div>

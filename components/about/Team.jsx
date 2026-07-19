@@ -8,6 +8,12 @@ const people = [
     name: "Dr. John R. Turner",
     role: "Co-creator, The Flow System",
     bio: "John is an Associate Professor at Texas A&M University, where he chairs the EHRD program in the Department of Educational Administration and Human Resource Development. Co-creator of The Flow System and co-author of its books, he has published over 100 articles and book chapters, and co-founded The Flow Consortium and Performance Development Network. His research spans complexity thinking, distributed leadership, decision-making, and team science.",
+    links: [
+      {
+        href: "https://professor-turner.com/",
+        label: "Faculty page & dissertation resources",
+      },
+    ],
   },
   {
     initials: "NT",
@@ -51,6 +57,21 @@ export function Team() {
               <p className="font-body text-sm leading-relaxed text-muted">
                 {p.bio}
               </p>
+              {p.links && (
+                <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+                  {p.links.map((l) => (
+                    <a
+                      key={l.href}
+                      href={l.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-body text-sm font-semibold text-accent hover:underline"
+                    >
+                      {l.label} &rarr;
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>

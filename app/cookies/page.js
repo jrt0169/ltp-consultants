@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function CookiesPage() {
   return (
-    <LegalLayout title="Cookie Policy" lastUpdated="July 18, 2026">
+    <LegalLayout title="Cookie Policy" lastUpdated="July 24, 2026">
       <P>
         This Cookie Policy explains how Performance Development Network, LLC
         (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -24,8 +24,26 @@ export default function CookiesPage() {
       <H2>How we use cookies</H2>
       <P>
         We keep cookie use to a minimum. The Site relies on essential and
-        functional cookies needed to operate, secure, and display it correctly.
-        We do not use advertising or cross-site tracking cookies.
+        functional cookies needed to operate, secure, and display it correctly,
+        and on analytics cookies that help us understand how the Site is used so
+        we can improve it. We do not use advertising cookies, and we do not use
+        cookies to build advertising profiles or track you across other
+        companies&rsquo; websites.
+      </P>
+
+      <H2>Analytics</H2>
+      <P>
+        We use <strong>Google Analytics 4</strong> to understand how visitors
+        find and use the Site &mdash; for example, which pages are viewed and
+        how people move through them. Google Analytics sets first-party cookies
+        (such as <code>_ga</code>) to distinguish visitors and measure sessions.
+        We use this data only in aggregate to improve the Site; we have not
+        enabled Google Advertising features, and we do not use it to serve ads.
+      </P>
+      <P>
+        We also use <strong>Vercel Analytics</strong>, which measures aggregate
+        traffic <em>without</em> using cookies or storing personal information
+        on your device.
       </P>
 
       <H2>Third-party cookies</H2>
@@ -34,6 +52,10 @@ export default function CookiesPage() {
         cookies when you interact with them:
       </P>
       <UL>
+        <LI>
+          <strong>Google Analytics</strong> &mdash; analytics cookies that
+          measure how the Site is used, as described above.
+        </LI>
         <LI>
           <strong>Tally</strong> &mdash; when you open a contact, workbook, or
           diagnostic form.
@@ -48,6 +70,7 @@ export default function CookiesPage() {
         </LI>
         <LI>
           <strong>Vercel</strong> &mdash; which hosts and secures the Site.
+          (Vercel Analytics itself does not set cookies.)
         </LI>
       </UL>
       <P>

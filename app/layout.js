@@ -1,6 +1,12 @@
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/next";
+
+// GA4 Measurement ID for pdnlearn.com (its own property, separate from
+// science-teams' G-M3Q4W7YVGP).
+const GA_MEASUREMENT_ID = "G-VM6WZ0HYRM";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -90,7 +96,9 @@ export default function RootLayout({ children }) {
           Cal("init", "discovery-call", {origin:"https://cal.com"});
           Cal.ns["discovery-call"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
         `}</Script>
+        <Analytics />
       </body>
+      <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
     </html>
   );
 }

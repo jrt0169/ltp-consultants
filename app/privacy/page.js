@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <LegalLayout title="Privacy Policy" lastUpdated="July 18, 2026">
+    <LegalLayout title="Privacy Policy" lastUpdated="July 24, 2026">
       <P>
         This Privacy Policy explains how Performance Development Network, LLC
         (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -33,7 +33,12 @@ export default function PrivacyPage() {
           <strong>Information collected automatically</strong> &mdash; basic
           technical and usage data (such as your browser type, device, and pages
           visited) that our hosting provider records to operate and secure the
-          Site.
+          Site, and that our analytics tools collect to help us understand how
+          the Site is used. See our{" "}
+          <a href="/cookies" className="text-accent underline">
+            Cookie Policy
+          </a>{" "}
+          for details on the analytics cookies involved.
         </LI>
       </UL>
 
@@ -52,6 +57,15 @@ export default function PrivacyPage() {
         own privacy terms:
       </P>
       <UL>
+        <LI>
+          <strong>Google Analytics 4</strong> &mdash; aggregate website
+          analytics (how the Site is found and used). We have not enabled
+          Google Advertising features.
+        </LI>
+        <LI>
+          <strong>Vercel Analytics</strong> &mdash; cookieless, aggregate
+          traffic measurement.
+        </LI>
         <LI>
           <strong>Tally</strong> &mdash; contact, workbook, and diagnostic forms.
         </LI>

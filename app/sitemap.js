@@ -1,8 +1,18 @@
+import { playbooks } from "@/components/playbook/playbookData";
+
 export default function sitemap() {
   const base = "https://pdnlearn.com";
   const lastModified = new Date();
 
   const pages = [
+    { path: "/playbook", priority: 0.7, changeFrequency: "monthly" },
+    // One landing page per workbook; the slug is the path printed under that
+    // workbook's QR code, so printed codes resolve here after the redirect.
+    ...playbooks.map((p) => ({
+      path: `/playbook/${p.slug}`,
+      priority: 0.6,
+      changeFrequency: "yearly",
+    })),
     { path: "/", priority: 1.0, changeFrequency: "weekly" },
     { path: "/the-flow-system", priority: 0.9, changeFrequency: "monthly" },
     { path: "/training", priority: 0.9, changeFrequency: "monthly" },

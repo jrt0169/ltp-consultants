@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 
-const TALLY_WORKBOOK_FORM = "yPRVWd";
-
 const HELIX_BLURB = {
   "Lean Thinking": "Foundational principles from Toyota",
   "Complexity Thinking": "Understanding uncertainty and complex adaptive systems",
@@ -92,22 +90,21 @@ export default function PlaybookLanding({ playbook }) {
           </div>
         </div>
 
-        {/* Soft email CTA */}
+        {/* Pointer to the full set */}
         <div className="mt-12 rounded-lg border border-[#1a3848]/15 bg-[#f2efe9] p-6 text-center">
           <p className="font-['Playfair_Display'] text-lg font-bold text-[#1a3848]">
             Want the whole set?
           </p>
           <p className="mx-auto mt-2 max-w-xl text-sm text-gray-600">
-            All 39 Flow System workbooks across Lean Thinking, Complexity
-            Thinking, Distributed Leadership and Team Science — free.
+            Every Flow System workbook across Lean Thinking, Complexity Thinking,
+            Distributed Leadership and Team Science — free, no sign-up.
           </p>
-          <button
-            data-tally-open={TALLY_WORKBOOK_FORM}
-            data-tally-overlay="1"
-            className="mt-5 inline-block cursor-pointer rounded bg-[#c9933a] px-8 py-3 font-semibold text-white transition-colors duration-200 hover:bg-[#e8b96a]"
+          <a
+            href="/resources/workbooks"
+            className="mt-5 inline-block rounded bg-[#c9933a] px-8 py-3 font-semibold text-white transition-colors duration-200 hover:bg-[#e8b96a]"
           >
-            Get all 39 workbooks
-          </button>
+            Browse all the workbooks
+          </a>
           <p className="mt-3 text-xs text-gray-500">
             {HELIX_BLURB[helix]} — and the other three disciplines.
           </p>

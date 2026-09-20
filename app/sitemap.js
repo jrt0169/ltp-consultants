@@ -5,7 +5,6 @@ export default function sitemap() {
   const lastModified = new Date();
 
   const pages = [
-    { path: "/playbook", priority: 0.7, changeFrequency: "monthly" },
     // One landing page per workbook; the slug is the path printed under that
     // workbook's QR code, so printed codes resolve here after the redirect.
     ...playbooks.map((p) => ({

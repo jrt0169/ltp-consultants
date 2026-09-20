@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <LegalLayout title="Privacy Policy" lastUpdated="July 24, 2026">
+    <LegalLayout title="Privacy Policy" lastUpdated="September 20, 2026">
       <P>
         This Privacy Policy explains how Performance Development Network, LLC
         (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
         <LI>
           <strong>Information you give us</strong> &mdash; such as your name,
           email address, and any message or details you provide when you contact
-          us, book a call, request the free workbooks, or complete the team
+          us, book a call, or complete the team
           diagnostic. These forms are handled by our form and scheduling
           providers (see below).
         </LI>
@@ -45,7 +45,6 @@ export default function PrivacyPage() {
       <H2>How we use your information</H2>
       <UL>
         <LI>To respond to your enquiries and schedule consultations.</LI>
-        <LI>To deliver resources you request, such as the workbooks.</LI>
         <LI>To send you updates only if you have opted in to receive them.</LI>
         <LI>To operate, maintain, and improve the Site.</LI>
       </UL>
@@ -67,7 +66,7 @@ export default function PrivacyPage() {
           traffic measurement.
         </LI>
         <LI>
-          <strong>Tally</strong> &mdash; contact, workbook, and diagnostic forms.
+          <strong>Tally</strong> &mdash; contact and diagnostic forms.
         </LI>
         <LI>
           <strong>Cal.com</strong> &mdash; scheduling discovery calls.

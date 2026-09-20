@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function CookiesPage() {
   return (
-    <LegalLayout title="Cookie Policy" lastUpdated="July 24, 2026">
+    <LegalLayout title="Cookie Policy" lastUpdated="September 20, 2026">
       <P>
         This Cookie Policy explains how Performance Development Network, LLC
         (&ldquo;PDN&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
@@ -57,8 +57,8 @@ export default function CookiesPage() {
           measure how the Site is used, as described above.
         </LI>
         <LI>
-          <strong>Tally</strong> &mdash; when you open a contact, workbook, or
-          diagnostic form.
+          <strong>Tally</strong> &mdash; when you open a contact or diagnostic
+          form.
         </LI>
         <LI>
           <strong>Cal.com</strong> &mdash; when you open the scheduling window to

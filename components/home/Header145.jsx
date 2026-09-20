@@ -10,7 +10,7 @@ export function Header145() {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-mid via-brand to-brand" />
         <img
-          src="/Flow System Logo SM Transparent.png"
+          src="/flow-system-logo-sm-transparent.png"
           className="absolute right-[-4%] top-1/2 hidden w-[46%] max-w-2xl -translate-y-1/2 object-contain opacity-10 lg:block"
           alt=""
           aria-hidden="true"

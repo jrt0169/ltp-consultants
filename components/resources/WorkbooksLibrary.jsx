@@ -2,7 +2,7 @@
 import React from "react";
 import { sections } from "./workbooksData";
 
-const enc = (name) => "/workbooks/" + encodeURIComponent(name);
+const enc = (name) => "/playbook/" + encodeURIComponent(name);
 
 export default function WorkbooksLibrary() {
   return (
